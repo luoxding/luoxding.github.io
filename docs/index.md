@@ -2,16 +2,16 @@
 layout: home
  
 hero:
-  name: 名称
-  text: 文本
-  tagline: 标语
+  name: 爱好计算机的电焊工
+  text: 托管我的各类笔记
+  tagline: blogs
   actions:
     - theme: brand
       text: 开始
-      link: /guide/what-is-vitepress
+      link: /guide/tutorial
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/luoxding/luoxding.github.io
  
 features:
   - icon: ⚡️
