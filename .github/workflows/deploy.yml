@@ -1,24 +1,30 @@
 name: Deploy
+
 on:
   push:
     branches:
       - main
+      
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2.1.2
+      - uses: actions/checkout@v3
         with:
-          node-version: '14.x'
-      - name: Install Dependencies
-        run: npm ci
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+      - run: yarn install --frozen-lockfile
+
       - name: Build
-        run: npm run build
+        run: yarn docs:build
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vitepress/dist
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
+
+          # cname: example.com # if wanna deploy to custom domain
