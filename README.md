@@ -6,3 +6,5 @@
 example: https://fyhhub.github.io/
 https://github.com/fyhhub/fyhhub.github.io.git
 https://gitee.com/geeksdidi/kittypage
+
+git checkout main
