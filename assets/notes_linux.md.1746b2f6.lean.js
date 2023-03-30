@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,N as o}from"./chunks/framework.0799945b.js";const p=JSON.parse('{"title":"Linux应用笔记","description":"","frontmatter":{},"headers":[],"relativePath":"notes/linux.md"}'),n={name:"notes/linux.md"},r=o("",6),l=[r];function i(h,s,c,d,_,u){return t(),e("div",null,l)}const m=a(n,[["render",i]]);export{p as __pageData,m as default};
