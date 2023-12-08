@@ -1,5 +1,5 @@
 # 生成网站根目录的地址
-baseURL = "http://localhost:1313/"
+baseURL = "https://luoxding.github.io/"
 
 # 主题
 theme = "hugo-theme-walden"
