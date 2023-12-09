@@ -1,84 +1,210 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>标签 on 老罗博客</title>
-    <link>https://luoxding.github.io/tags/</link>
-    <description>Recent content in 标签 on 老罗博客</description>
+    <title>Tags on 飞鸟的博客站</title>
+    <link>https://starifly.github.io/tags/</link>
+    <description>Recent content in Tags on 飞鸟的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans-CN</language>
-    <managingEditor>412947296@qq.com (布衣老罗)</managingEditor>
-    <webMaster>412947296@qq.com (布衣老罗)</webMaster>
-    <lastBuildDate>Sat, 09 Dec 2023 16:16:47 +0800</lastBuildDate>
-    <atom:link href="https://luoxding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>demo</title>
-      <link>https://luoxding.github.io/tags/demo/</link>
-      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/demo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>example</title>
-      <link>https://luoxding.github.io/tags/example/</link>
-      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>test</title>
-      <link>https://luoxding.github.io/tags/test/</link>
-      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/test/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://luoxding.github.io/tags/hugo/</link>
-      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/hugo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Walden</title>
-      <link>https://luoxding.github.io/tags/walden/</link>
-      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/walden/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
-      <link>https://luoxding.github.io/tags/shortcodes/</link>
-      <pubDate>Thu, 27 Apr 2023 02:12:52 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>https://luoxding.github.io/tags/markdown/</link>
-      <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>尼泊尔</title>
-      <link>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</link>
-      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>徒步</title>
-      <link>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</link>
-      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>上海交通大学</title>
-      <link>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</link>
-      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
-      <guid>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</guid>
-      <description></description>
-    </item>
+    <language>zh</language>
+    <managingEditor>efim@163.com (飞鸟)</managingEditor>
+    <webMaster>efim@163.com (飞鸟)</webMaster>
+    <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 04 Nov 2023 11:11:17 +0800</lastBuildDate>
+    <sy:updatePeriod>daily</sy:updatePeriod>
+    
+        <atom:link href="https://starifly.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      
+      <item>
+        <title>keepalived</title>
+        <link>https://starifly.github.io/tags/keepalived/</link>
+        <pubDate>Sat, 04 Nov 2023 11:11:17 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/keepalived/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>mysql</title>
+        <link>https://starifly.github.io/tags/mysql/</link>
+        <pubDate>Sat, 04 Nov 2023 11:11:17 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/mysql/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>demo</title>
+        <link>https://starifly.github.io/tags/demo/</link>
+        <pubDate>Sat, 04 Nov 2023 10:58:51 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/demo/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>linux</title>
+        <link>https://starifly.github.io/tags/linux/</link>
+        <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/linux/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>redhat</title>
+        <link>https://starifly.github.io/tags/redhat/</link>
+        <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/redhat/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>cronjob</title>
+        <link>https://starifly.github.io/tags/cronjob/</link>
+        <pubDate>Sat, 04 Nov 2023 09:50:50 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/cronjob/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>k8s</title>
+        <link>https://starifly.github.io/tags/k8s/</link>
+        <pubDate>Sat, 04 Nov 2023 09:50:50 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/k8s/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>docker</title>
+        <link>https://starifly.github.io/tags/docker/</link>
+        <pubDate>Sat, 04 Nov 2023 09:42:36 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/docker/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>java</title>
+        <link>https://starifly.github.io/tags/java/</link>
+        <pubDate>Sat, 04 Nov 2023 09:42:36 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/java/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>loki</title>
+        <link>https://starifly.github.io/tags/loki/</link>
+        <pubDate>Fri, 17 Feb 2023 16:25:55 +0800</pubDate>
+        <author>efim@163.com (飞鸟)</author>
+        
+        <guid>https://starifly.github.io/tags/loki/</guid>
+        <description></description>
+        <content:encoded></content:encoded>
+        <dc:creator>飞鸟</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
   </channel>
 </rss>
