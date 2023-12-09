@@ -3,7 +3,7 @@ baseURL = "https://luoxding.github.io/"
 
 # 主题
 theme = "hugo-theme-walden"
-publishDir = "./docs"
+# publishDir = "./docs"
 
 # 列表分页基数
 paginate = 12
