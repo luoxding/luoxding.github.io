@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang=zh-Hans-CN>
+
+    <head>
+
+        
+        <meta charset="utf-8" />
+
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+        
+        <title>Shortcodes Syntax ｜ 老罗博客</title>
+
+        
+        <link href=/favicon.png rel="icon">
+        <link rel="stylesheet" href=/bootstrap-icons-1.10.4/font/bootstrap-icons.css>
+
+
+        
+        
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="https://luoxding.github.io/css/main.css">
+
+    </head>
+
+    <body><header id="header">
+    <div class="container">
+
+        <a href="https://luoxding.github.io/"><div class="logo">老罗博客</div></a>
+
+        <nav class="menu">
+            
+            
+                
+                
+                <a class="menu-item " href="/">首页</a>
+            
+                
+                
+                <a class="menu-item  active " href="/blog/">博客</a>
+            
+                
+                
+                <a class="menu-item " href="/note/">笔记</a>
+            
+                
+                
+                <a class="menu-item " href="/categories/">分类</a>
+            
+                
+                
+                <a class="menu-item " href="/tags/">标签</a>
+            
+
+            
+        </nav>
+
+    </div>
+</header>
+
+<div id="necker">
+    <div class="container"><ol class="breadcrumb">
+    
+    
+        
+    
+        
+    
+    <li class="breadcrumb-item">首页</li>
+
+    
+    <li class="breadcrumb-item">博客</li>
+
+    
+    <li class="breadcrumb-item">Shortcodes Syntax</li>
+
+</ol>
+</div>
+</div>
+
+<div id="stager">
+    <div class="container">
+
+        <main>
+
+            <div class="container-white">
+    <div class="content">
+
+        
+        <article>
+            <div class="content-header">
+                <h1 class="title">Shortcodes Syntax</h1>
+                <p class="meta">
+                    <span>Apr 26, 2023</span>
+                    <span>By</span>
+                    <span>
+                    
+                    Homecat
+                    
+                    </span>
+                </p>
+            </div>
+            <div class="markdown"><p>Shortcodes are simple snippets inside your content files calling built-in or custom templates. They are created to circumvent the limitations of Markdown Syntax.</p>
+<h2 id="figure">Figure</h2>
+<p>Syntax</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-golang" data-lang="golang"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>{{&lt; <span style="color:#a6e22e">figure</span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>    <span style="color:#a6e22e">src</span>=<span style="color:#e6db74">&#34;https://pic.imgdb.cn/item/63beb6b5be43e0d30e3aa660.jpg&#34;</span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>    <span style="color:#a6e22e">title</span>=<span style="color:#e6db74">&#34;Description of image. ©Author&#34;</span> 
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>&gt;}}
+</span></span></code></pre></div>
+<figure>
+    <img src="https://pic.imgdb.cn/item/63beb6b5be43e0d30e3aa660.jpg" />
+    <figcaption>
+        Description of image. ©Author
+    </figcaption>
+</figure>
+
+
+<h2 id="screen">Screen</h2>
+<p>Syntax</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>{{&lt; screen &gt;}}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>Change detected, rebuilding site.&lt;br&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>2023-04-27 01:44:58.285 +0000&lt;br&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>Source changed WRITE &#34;/src/tester/content/blog/shortcodes-syntax.en.md&#34;&lt;br&gt;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>Total in 48 ms
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>{{&lt; /screen &gt;}}
+</span></span></code></pre></div><div class="screen">
+    Change detected, rebuilding site.<br>
+2023-04-27 01:44:58.285 +0000<br>
+Source changed WRITE &ldquo;/src/tester/content/blog/shortcodes-syntax.en.md&rdquo;<br>
+Total in 48 ms
+</div></div>
+        </article>
+
+
+
+        
+        
+        <div class="content-tag">
+            
+            <a href="/tags/hugo">Hugo</a>
+            
+            <a href="/tags/walden">Walden</a>
+            
+            <a href="/tags/shortcodes">Shortcodes</a>
+            
+        </div> 
+        
+
+
+
+        
+        <div class="content-nav">
+            <div>
+                
+                <div>
+                    <a href="https://luoxding.github.io/blog/markdown-syntax.en/">
+                        <span><i class="bi bi-chevron-left"></i></span>
+                        <span>Markdown Syntax</span>
+                    </a>
+                </div>
+                
+            </div>
+            <div>
+            
+                <div>
+                    <a href="https://luoxding.github.io/blog/shortcodes-syntax-carousel.en/">
+                        <span>Shortcodes Syntax - Carousel</span>
+                        <span><i class="bi bi-chevron-right"></i></span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+        </main>
+
+        <aside>
+
+            <div class="container-sticky">
+                <div class="container-card"><div id="toc">
+    <div class="card">
+        <div class="card-title">目录</div>
+        <div class="normal"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#figure">Figure</a></li>
+    <li><a href="#screen">Screen</a></li>
+  </ul>
+</nav></div>
+    </div>
+</div>
+</div>
+                <div class="container-card">
+
+<section class="card">
+    <div class="card-title">相关文章</div>
+    <div class="normal">
+        <ul>
+            
+            <li><a href="https://luoxding.github.io/blog/markdown-syntax.en/">Markdown Syntax</a></li>
+            
+        </ul>
+    </div>
+</section>
+</div>
+            </div>
+
+        </aside>
+
+    </div>
+</div>
+<footer id="footer">
+    <div class="container">
+        <p class="copyright">© 2023 布衣老罗 - All Rights Reserved.</p>
+    </div>
+</footer>
+
+        <script src=/js/jquery-3.6.0.js></script>
+        <script src=/js/main.js></script>
+
+    </body>
+
+</html>

@@ -1,33 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首页 on 瓦尔登湖</title>
+    <title>首页 on 老罗博客</title>
     <link>https://luoxding.github.io/</link>
-    <description>Recent content in 首页 on 瓦尔登湖</description>
+    <description>Recent content in 首页 on 老罗博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <managingEditor>13050082@qq.com (家猫)</managingEditor>
-    <webMaster>13050082@qq.com (家猫)</webMaster>
+    <managingEditor>412947296@qq.com (布衣老罗)</managingEditor>
+    <webMaster>412947296@qq.com (布衣老罗)</webMaster>
     <lastBuildDate>Sat, 09 Dec 2023 16:16:47 +0800</lastBuildDate>
     <atom:link href="https://luoxding.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demo</title>
-      <link>https://luoxding.github.io/demo/</link>
-      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>13050082@qq.com (家猫)</author>
-      <guid>https://luoxding.github.io/demo/</guid>
+      <link>https://luoxding.github.io/note/demo/</link>
+      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/note/demo/</guid>
       <description>&lt;h1 id=&#34;latex笔记&#34;&gt;latex笔记&lt;/h1&gt;&#xA;&lt;p&gt;表格整体相关设置【表名及位置、表宽、注解、字号】&lt;/p&gt;&#xA;&lt;p&gt;很多时候，我们都是对表格整体进行相关设置，来达到自己的相关需求。而对表格整体的相关设置其实与表格内容并无太大关系。&lt;/p&gt;&#xA;&lt;p&gt;因此我们需要在表格内容环境【如上文中的 &lt;strong&gt;\begin{tabular}、\begin{longtable}&lt;/strong&gt; 】外面进行相关环境设置。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Theme Walden</title>
+      <link>https://luoxding.github.io/blog/hugo-theme-walden.en/</link>
+      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/blog/hugo-theme-walden.en/</guid>
+      <description>&lt;p&gt;After reading &lt;i&gt;&lt;b&gt;Walden&lt;/b&gt;&lt;/i&gt;, a collection of essays by American writer Henry David Thoreau, I was deeply influenced by his love of nature and simple living. So, I wrote this concise and clear theme for my personal website and named it Walden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shortcodes Syntax - Carousel</title>
+      <link>https://luoxding.github.io/blog/shortcodes-syntax-carousel.en/</link>
+      <pubDate>Thu, 27 Apr 2023 02:12:52 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/blog/shortcodes-syntax-carousel.en/</guid>
+      <description>&lt;p&gt;Carousel is a useful shortcode in theme Walden, Used to display multiple images with their information.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shortcodes Syntax</title>
+      <link>https://luoxding.github.io/blog/shortcodes-syntax.en/</link>
+      <pubDate>Wed, 26 Apr 2023 06:04:57 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/blog/shortcodes-syntax.en/</guid>
+      <description>&lt;p&gt;Shortcodes are simple snippets inside your content files calling built-in or custom templates. They are created to circumvent the limitations of Markdown Syntax.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://luoxding.github.io/blog/markdown-syntax.en/</link>
+      <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/blog/markdown-syntax.en/</guid>
+      <description>&lt;p&gt;Markdown is a lightweight markup language used to add formatting elements to plaintext text documents. This article shows the syntax of markdown elements in hugo theme Walden.&lt;/p&gt;</description>
     </item>
     <item>
       <title>安娜普尔纳 ABC 九日</title>
       <link>https://luoxding.github.io/blog/nepal-trekking-abc/</link>
-      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>13050082@qq.com (家猫)</author>
+      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
       <guid>https://luoxding.github.io/blog/nepal-trekking-abc/</guid>
+      <description>&lt;p&gt;安娜普尔纳（Annapurana）地区位于尼泊尔北部的喜马拉雅山中段，有两条成熟且知名的徒步线路：一条去往安娜普尔纳大本营ABC（Annapurna Base Camp），另一条围绕着安娜普尔纳群峰行进的环线ACT（Annapurna Circle Trail）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>安娜普尔纳 ABC 九日</title>
+      <link>https://luoxding.github.io/note/nepal-trekking-abc/</link>
+      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/note/nepal-trekking-abc/</guid>
       <description>&lt;p&gt;安娜普尔纳（Annapurana）地区位于尼泊尔北部的喜马拉雅山中段，有两条成熟且知名的徒步线路：一条去往安娜普尔纳大本营ABC（Annapurna Base Camp），另一条围绕着安娜普尔纳群峰行进的环线ACT（Annapurna Circle Trail）。&lt;/p&gt;</description>
     </item>
     <item>
       <title>我的大学校园</title>
       <link>https://luoxding.github.io/blog/sjtu-campus/</link>
-      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate><author>13050082@qq.com (家猫)</author>
+      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
       <guid>https://luoxding.github.io/blog/sjtu-campus/</guid>
       <description>&lt;p&gt;上海交通大学是我的母校，成立于1896年，是一座百年名校。母校的校园很美，特别是我就读的徐汇校区，有许多优秀的历史建筑，不仅记录着学校的发展，还沉淀着深厚的人文精神。&lt;/p&gt;</description>
     </item>

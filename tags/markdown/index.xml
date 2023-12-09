@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on 老罗博客</title>
+    <link>https://luoxding.github.io/tags/markdown/</link>
+    <description>Recent content in Markdown on 老罗博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-Hans-CN</language>
+    <managingEditor>412947296@qq.com (布衣老罗)</managingEditor>
+    <webMaster>412947296@qq.com (布衣老罗)</webMaster>
+    <lastBuildDate>Wed, 26 Apr 2023 01:04:58 +0000</lastBuildDate>
+    <atom:link href="https://luoxding.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://luoxding.github.io/blog/markdown-syntax.en/</link>
+      <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/blog/markdown-syntax.en/</guid>
+      <description>&lt;p&gt;Markdown is a lightweight markup language used to add formatting elements to plaintext text documents. This article shows the syntax of markdown elements in hugo theme Walden.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

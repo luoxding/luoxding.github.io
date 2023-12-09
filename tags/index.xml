@@ -1,40 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>标签 on 瓦尔登湖</title>
+    <title>标签 on 老罗博客</title>
     <link>https://luoxding.github.io/tags/</link>
-    <description>Recent content in 标签 on 瓦尔登湖</description>
+    <description>Recent content in 标签 on 老罗博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans-CN</language>
-    <managingEditor>13050082@qq.com (家猫)</managingEditor>
-    <webMaster>13050082@qq.com (家猫)</webMaster>
+    <managingEditor>412947296@qq.com (布衣老罗)</managingEditor>
+    <webMaster>412947296@qq.com (布衣老罗)</webMaster>
     <lastBuildDate>Sat, 09 Dec 2023 16:16:47 +0800</lastBuildDate>
     <atom:link href="https://luoxding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test; demo; example</title>
-      <link>https://luoxding.github.io/tags/test-demo-example/</link>
-      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>13050082@qq.com (家猫)</author>
-      <guid>https://luoxding.github.io/tags/test-demo-example/</guid>
+      <title>demo</title>
+      <link>https://luoxding.github.io/tags/demo/</link>
+      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>example</title>
+      <link>https://luoxding.github.io/tags/example/</link>
+      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>test</title>
+      <link>https://luoxding.github.io/tags/test/</link>
+      <pubDate>Sat, 09 Dec 2023 16:16:47 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://luoxding.github.io/tags/hugo/</link>
+      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Walden</title>
+      <link>https://luoxding.github.io/tags/walden/</link>
+      <pubDate>Fri, 28 Apr 2023 09:03:08 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/walden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>https://luoxding.github.io/tags/shortcodes/</link>
+      <pubDate>Thu, 27 Apr 2023 02:12:52 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://luoxding.github.io/tags/markdown/</link>
+      <pubDate>Wed, 26 Apr 2023 01:04:58 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
+      <guid>https://luoxding.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>尼泊尔</title>
       <link>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</link>
-      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>13050082@qq.com (家猫)</author>
+      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
       <guid>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</guid>
       <description></description>
     </item>
     <item>
       <title>徒步</title>
       <link>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</link>
-      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>13050082@qq.com (家猫)</author>
+      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>412947296@qq.com (布衣老罗)</author>
       <guid>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</guid>
       <description></description>
     </item>
     <item>
       <title>上海交通大学</title>
       <link>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</link>
-      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate><author>13050082@qq.com (家猫)</author>
+      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate><author>412947296@qq.com (布衣老罗)</author>
       <guid>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>

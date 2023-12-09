@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://luoxding.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2023-04-28T09:03:08+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://luoxding.github.io/zh/sitemap.xml</loc>
-    
-      <lastmod>2023-12-09T16:16:47+08:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://luoxding.github.io/tags/demo/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/note/demo/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/example/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/note/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/test/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/categories/tex/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/categories/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/</loc>
+    <lastmod>2023-12-09T16:16:47+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/hugo/</loc>
+    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/hugo-theme-walden.en/</loc>
+    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/categories/theme-walden/</loc>
+    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/walden/</loc>
+    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/</loc>
+    <lastmod>2023-04-28T09:03:08+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/shortcodes/</loc>
+    <lastmod>2023-04-27T02:12:52+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/shortcodes-syntax-carousel.en/</loc>
+    <lastmod>2023-04-27T02:12:52+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/shortcodes-syntax.en/</loc>
+    <lastmod>2023-04-26T06:04:57+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/markdown/</loc>
+    <lastmod>2023-04-26T01:04:58+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/markdown-syntax.en/</loc>
+    <lastmod>2023-04-26T01:04:58+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/nepal-trekking-abc/</loc>
+    <lastmod>2023-04-09T21:58:50+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/note/nepal-trekking-abc/</loc>
+    <lastmod>2023-04-09T21:58:50+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</loc>
+    <lastmod>2023-04-09T21:58:50+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</loc>
+    <lastmod>2023-04-09T21:58:50+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/categories/%E8%A1%8C%E8%80%85%E6%97%A0%E7%96%86/</loc>
+    <lastmod>2023-04-09T21:58:50+08:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/categories/%E9%AD%94%E9%83%BD%E7%BA%AA%E4%BA%8B/</loc>
+    <lastmod>2023-03-24T03:36:57+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</loc>
+    <lastmod>2023-03-24T03:36:57+00:00</lastmod>
+  </url><url>
+    <loc>https://luoxding.github.io/blog/sjtu-campus/</loc>
+    <lastmod>2023-03-24T03:36:57+00:00</lastmod>
+  </url>
+</urlset>
