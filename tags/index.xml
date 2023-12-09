@@ -1,102 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
+    <title>标签 on 瓦尔登湖</title>
+    <link>https://luoxding.github.io/tags/</link>
+    <description>Recent content in 标签 on 瓦尔登湖</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-Hans-CN</language>
+    <managingEditor>13050082@qq.com (家猫)</managingEditor>
+    <webMaster>13050082@qq.com (家猫)</webMaster>
+    <lastBuildDate>Sun, 09 Apr 2023 21:58:50 +0800</lastBuildDate>
+    <atom:link href="https://luoxding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Istio</title>
-      <link>https://example.org/tags/istio/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/istio/</guid>
+      <title>尼泊尔</title>
+      <link>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</link>
+      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>13050082@qq.com (家猫)</author>
+      <guid>https://luoxding.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/</guid>
       <description></description>
     </item>
     <item>
-      <title>ubuntu</title>
-      <link>https://example.org/tags/ubuntu/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/ubuntu/</guid>
+      <title>徒步</title>
+      <link>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</link>
+      <pubDate>Sun, 09 Apr 2023 21:58:50 +0800</pubDate><author>13050082@qq.com (家猫)</author>
+      <guid>https://luoxding.github.io/tags/%E5%BE%92%E6%AD%A5/</guid>
       <description></description>
     </item>
     <item>
-      <title>Microservice</title>
-      <link>https://example.org/tags/microservice/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/microservice/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://example.org/tags/security/</link>
-      <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kubernetes</title>
-      <link>https://example.org/tags/kubernetes/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Travel</title>
-      <link>https://example.org/tags/travel/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/travel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Helm</title>
-      <link>https://example.org/tags/helm/</link>
-      <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/helm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>API Gateway</title>
-      <link>https://example.org/tags/api-gateway/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      <guid>https://example.org/tags/api-gateway/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>service Mesh</title>
-      <link>https://example.org/tags/service-mesh/</link>
-      <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
-      <guid>https://example.org/tags/service-mesh/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://example.org/tags/docker/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tips</title>
-      <link>https://example.org/tags/tips/</link>
-      <pubDate>Tue, 13 Mar 2018 18:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/tips/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vim</title>
-      <link>https://example.org/tags/vim/</link>
-      <pubDate>Fri, 09 Feb 2018 11:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/vim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>nginmesh</title>
-      <link>https://example.org/tags/nginmesh/</link>
-      <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/nginmesh/</guid>
+      <title>上海交通大学</title>
+      <link>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</link>
+      <pubDate>Fri, 24 Mar 2023 03:36:57 +0000</pubDate><author>13050082@qq.com (家猫)</author>
+      <guid>https://luoxding.github.io/tags/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6/</guid>
       <description></description>
     </item>
   </channel>
