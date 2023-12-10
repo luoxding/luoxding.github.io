@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Posts on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/posts/</link>
-    <description>Recent content in Posts on 飞鸟的博客站</description>
+    <title>Posts on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/posts/</link>
+    <description>Recent content in Posts on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 04 Nov 2023 11:11:17 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,26 +26,26 @@
       
       <item>
         <title>keepalived&#43;mysql双主集群单主可写</title>
-        <link>https://starifly.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</link>
+        <link>https://luoxding.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</link>
         <pubDate>Sat, 04 Nov 2023 11:11:17 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 11:11:17 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</guid>
+        <guid>https://luoxding.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</guid>
         <description>keepalived高可用介绍及改造方案 具体配置-passwd方式 192.168.5.31 # keepalived.conf ! Configuration File for keepalived global_defs { router_id db01 } vrrp_sync_group G1 { group { VI_1 } } vrrp_script check_run { script &amp;#34;/etc/keepalived/mysql_check.sh&amp;#34; interval 10 fall 3 } vrrp_instance VI_1 { state BACKUP interface</description>
         <content:encoded>&lt;h2 id=&#34;keepalived高可用介绍及改造方案&#34;&gt;keepalived高可用介绍及改造方案&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_07.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_08.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_13.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_07.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_08.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_13.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;具体配置-passwd方式&#34;&gt;具体配置-passwd方式&lt;/h2&gt;
 &lt;h3 id=&#34;192168531&#34;&gt;192.168.5.31&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cfg&#34; data-lang=&#34;cfg&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# keepalived.conf&lt;/span&gt;
@@ -1364,11 +1364,11 @@
       
       <item>
         <title>Mysql Galera Cluster</title>
-        <link>https://starifly.github.io/posts/mysql-galera-cluster/</link>
+        <link>https://luoxding.github.io/posts/mysql-galera-cluster/</link>
         <pubDate>Sat, 04 Nov 2023 10:58:51 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:58:51 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/mysql-galera-cluster/</guid>
+        <guid>https://luoxding.github.io/posts/mysql-galera-cluster/</guid>
         <description>介绍 Galera Cluster主要功能 同步复制 真正的multi-master，即所有节点可以同时读写数据库 自动的节点成员控制，失效节点自动被清除 新节点</description>
         <content:encoded>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Galera Cluster主要功能&lt;/strong&gt;&lt;/p&gt;
@@ -1650,11 +1650,11 @@
       
       <item>
         <title>原文件仿造新建</title>
-        <link>https://starifly.github.io/posts/yuyu/</link>
+        <link>https://luoxding.github.io/posts/yuyu/</link>
         <pubDate>Sat, 04 Nov 2023 10:58:51 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 09 Nov 2023 10:58:51 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/yuyu/</guid>
+        <guid>https://luoxding.github.io/posts/yuyu/</guid>
         <description>介绍-溃不成军 Galera Cluster主要功能 同步复制 真正的multi-master，即所有节点可以同时读写数据库 自动的节点成员控制，失效节点自动被</description>
         <content:encoded>&lt;h2 id=&#34;介绍-溃不成军&#34;&gt;介绍-溃不成军&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Galera Cluster主要功能&lt;/strong&gt;&lt;/p&gt;
@@ -1936,11 +1936,11 @@
       
       <item>
         <title>mysql授予账户权限问题</title>
-        <link>https://starifly.github.io/posts/mysql-account-permission-grant-problem/</link>
+        <link>https://luoxding.github.io/posts/mysql-account-permission-grant-problem/</link>
         <pubDate>Sat, 04 Nov 2023 10:49:13 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:49:13 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/mysql-account-permission-grant-problem/</guid>
+        <guid>https://luoxding.github.io/posts/mysql-account-permission-grant-problem/</guid>
         <description>mysql通过root账号登录，新建账户并授予权限会报错： mysql&amp;gt; GRANT SELECT ON *.* TO &amp;#39;select_user&amp;#39;@&amp;#39;%&amp;#39;; ERROR 1045 (28000): Access denied for user &amp;#39;root&amp;#39;@&amp;#39;%&amp;#39; (using password: YES) 解决方案： mysql&amp;gt; update mysql.user set Grant_priv=&amp;#39;Y&amp;#39; where user = &amp;#39;root&amp;#39; and host = &amp;#39;%&amp;#39;; Query OK, 1 row affected</description>
         <content:encoded>&lt;p&gt;mysql通过root账号登录，新建账户并授予权限会报错：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;mysql&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;GRANT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;TO&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;select_user&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;%&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
@@ -1981,11 +1981,11 @@
       
       <item>
         <title>U盘安装RedHat</title>
-        <link>https://starifly.github.io/posts/install-redhat-via-usb-disk/</link>
+        <link>https://luoxding.github.io/posts/install-redhat-via-usb-disk/</link>
         <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:17:22 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/install-redhat-via-usb-disk/</guid>
+        <guid>https://luoxding.github.io/posts/install-redhat-via-usb-disk/</guid>
         <description>刚开始网上查教程，大部分都说使用UltraISO刻录U盘启动盘，但是坑爹的是通过这种方式刻录的启动盘在安装过程中会找不到安装介质，所以不能使</description>
         <content:encoded>&lt;p&gt;刚开始网上查教程，大部分都说使用UltraISO刻录U盘启动盘，但是坑爹的是通过这种方式刻录的启动盘在安装过程中会找不到安装介质，所以不能使用这种方式。&lt;/p&gt;
 &lt;p&gt;后面查询其它的教程，得知可以使用Rufus制作，先格式化U盘，卷标名称位数不要超过11位，具体的刻录过程这里就不说明了。&lt;/p&gt;
@@ -2030,11 +2030,11 @@
       
       <item>
         <title>k8s cronjob执行时区问题</title>
-        <link>https://starifly.github.io/posts/k8s-cronjob-time-zone/</link>
+        <link>https://luoxding.github.io/posts/k8s-cronjob-time-zone/</link>
         <pubDate>Sat, 04 Nov 2023 09:50:50 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 09:50:50 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/k8s-cronjob-time-zone/</guid>
+        <guid>https://luoxding.github.io/posts/k8s-cronjob-time-zone/</guid>
         <description>使用k8s中的cronjob备份数据库发现一个问题，设置一个固定的时间点执行job，但是到了设定的时间后却没有执行。 经过查资料才得知，是k8</description>
         <content:encoded>&lt;p&gt;使用k8s中的cronjob备份数据库发现一个问题，设置一个固定的时间点执行job，但是到了设定的时间后却没有执行。&lt;/p&gt;
 &lt;p&gt;经过查资料才得知，是k8s中时区的问题，所以需要修改&lt;code&gt;/etc/kubernetes/manifests/kube-scheduler.yaml&lt;/code&gt;配置文件，增加相应的时区设置：&lt;/p&gt;
@@ -2083,11 +2083,11 @@
       
       <item>
         <title>docker部署java应用乱码问题</title>
-        <link>https://starifly.github.io/posts/java-application-garbled-code-in-docker/</link>
+        <link>https://luoxding.github.io/posts/java-application-garbled-code-in-docker/</link>
         <pubDate>Sat, 04 Nov 2023 09:42:36 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 09:42:36 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/java-application-garbled-code-in-docker/</guid>
+        <guid>https://luoxding.github.io/posts/java-application-garbled-code-in-docker/</guid>
         <description>在dockerfile中添加ENV LANG=en_US.utf8</description>
         <content:encoded>&lt;p&gt;在dockerfile中添加&lt;code&gt;ENV LANG=en_US.utf8&lt;/code&gt;&lt;/p&gt;
 </content:encoded>
@@ -2116,11 +2116,11 @@
       
       <item>
         <title>k8s中部署loki</title>
-        <link>https://starifly.github.io/posts/loki/</link>
+        <link>https://luoxding.github.io/posts/loki/</link>
         <pubDate>Fri, 17 Feb 2023 16:25:55 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Fri, 17 Feb 2023 16:25:55 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/loki/</guid>
+        <guid>https://luoxding.github.io/posts/loki/</guid>
         <description>Loki 架构 Loki：主服务，用于存储日志和处理查询。 Promtail：代理服务，用于采集日志，并转发给 Loki。 Grafana：通过 Web 界面来提供</description>
         <content:encoded>&lt;h2 id=&#34;loki-架构&#34;&gt;Loki 架构&lt;/h2&gt;
 &lt;ul&gt;
@@ -2829,11 +2829,11 @@
       
       <item>
         <title>画图</title>
-        <link>https://starifly.github.io/posts/draw/</link>
+        <link>https://luoxding.github.io/posts/draw/</link>
         <pubDate>Mon, 30 Jan 2023 18:38:49 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 25 Oct 2023 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/draw/</guid>
+        <guid>https://luoxding.github.io/posts/draw/</guid>
         <description>工具 draw.io 这个网站是大家一提到思维导图流程图啥的就会搬出来的“大佬级”的网站，几乎全平台都可用，Windows、MAC、在线网站都可以直接使用。</description>
         <content:encoded>&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
 &lt;h3 id=&#34;drawio&#34;&gt;draw.io&lt;/h3&gt;
@@ -2963,10 +2963,10 @@
 &lt;a href=&#34;https://github.com/kubernetes/community/tree/master/icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/kubernetes/community/tree/master/icons&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;一些案例&#34;&gt;一些案例&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content:encoded>
         <dc:creator>starifly</dc:creator>
         
@@ -2989,11 +2989,11 @@
       
       <item>
         <title>k8s部署EFK</title>
-        <link>https://starifly.github.io/posts/k8s-efk/</link>
+        <link>https://luoxding.github.io/posts/k8s-efk/</link>
         <pubDate>Sun, 29 Jan 2023 22:24:18 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 29 Jan 2023 22:24:18 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/k8s-efk/</guid>
+        <guid>https://luoxding.github.io/posts/k8s-efk/</guid>
         <description>elasticsearch cat elasticsearch.yaml apiVersion: apps/v1 kind: StatefulSet metadata: name: es-cluster spec: serviceName: elasticsearch replicas: 1 selector: matchLabels: app: elasticsearch template: metadata: labels: app: elasticsearch spec: containers: - name: elasticsearch #image: docker.elastic.co/elasticsearch/elasticsearch:7.5.0 image: elasticsearch:7.5.0 resources: limits: cpu: 1000m requests: cpu: 100m ports: - containerPort: 9200 name: rest protocol: TCP - containerPort: 9300 name: inter-node protocol: TCP # volumeMounts: # - name: data # mountPath: /usr/share/elasticsearch/data env: - name: cluster.name value: k8s-logs</description>
         <content:encoded>&lt;h2 id=&#34;elasticsearch&#34;&gt;elasticsearch&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;l&#34;&gt;cat elasticsearch.yaml&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;

@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>linux on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/linux/</link>
-    <description>Recent content in linux on 飞鸟的博客站</description>
+    <title>linux on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/linux/</link>
+    <description>Recent content in linux on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 04 Nov 2023 10:17:22 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>U盘安装RedHat</title>
-        <link>https://starifly.github.io/posts/install-redhat-via-usb-disk/</link>
+        <link>https://luoxding.github.io/posts/install-redhat-via-usb-disk/</link>
         <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:17:22 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/install-redhat-via-usb-disk/</guid>
+        <guid>https://luoxding.github.io/posts/install-redhat-via-usb-disk/</guid>
         <description>刚开始网上查教程，大部分都说使用UltraISO刻录U盘启动盘，但是坑爹的是通过这种方式刻录的启动盘在安装过程中会找不到安装介质，所以不能使</description>
         <content:encoded>&lt;p&gt;刚开始网上查教程，大部分都说使用UltraISO刻录U盘启动盘，但是坑爹的是通过这种方式刻录的启动盘在安装过程中会找不到安装介质，所以不能使用这种方式。&lt;/p&gt;
 &lt;p&gt;后面查询其它的教程，得知可以使用Rufus制作，先格式化U盘，卷标名称位数不要超过11位，具体的刻录过程这里就不说明了。&lt;/p&gt;
@@ -75,11 +75,11 @@
       
       <item>
         <title>Linux中病毒后的处理过程</title>
-        <link>https://starifly.github.io/posts/draft/virus-process-in-linux-system/</link>
+        <link>https://luoxding.github.io/posts/draft/virus-process-in-linux-system/</link>
         <pubDate>Sat, 30 May 2020 21:59:57 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 30 May 2020 21:59:57 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/draft/virus-process-in-linux-system/</guid>
+        <guid>https://luoxding.github.io/posts/draft/virus-process-in-linux-system/</guid>
         <description>之前一台 centos 虚拟机中毒，导致CPU飙升，这里记录下处理过程。 查找可疑进程 执行命令ll /proc/ID/exe，通过进程ID确定其执行路径，先删</description>
         <content:encoded>&lt;p&gt;之前一台 centos 虚拟机中毒，导致CPU飙升，这里记录下处理过程。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;查找可疑进程&lt;/strong&gt;&lt;/p&gt;
@@ -131,11 +131,11 @@
       
       <item>
         <title>Linux 中 profile，bashrc，bash_profile等的区别</title>
-        <link>https://starifly.github.io/posts/profile-bashrc-bash_profile-in-linux/</link>
+        <link>https://luoxding.github.io/posts/profile-bashrc-bash_profile-in-linux/</link>
         <pubDate>Fri, 17 Aug 2018 11:52:00 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/profile-bashrc-bash_profile-in-linux/</guid>
+        <guid>https://luoxding.github.io/posts/profile-bashrc-bash_profile-in-linux/</guid>
         <description>&lt;pre&gt;&lt;code&gt;这是一篇有关环境变量加载的入门介绍（不太确定）。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr /&gt;
@@ -197,11 +197,11 @@
       
       <item>
         <title>Ubuntu 使用笔记</title>
-        <link>https://starifly.github.io/posts/use-ubuntu-notes/</link>
+        <link>https://luoxding.github.io/posts/use-ubuntu-notes/</link>
         <pubDate>Wed, 15 Aug 2018 22:25:03 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/use-ubuntu-notes/</guid>
+        <guid>https://luoxding.github.io/posts/use-ubuntu-notes/</guid>
         <description>&lt;p&gt;使用 Ubuntu 过程中遇到的问题及解决方案。&lt;/p&gt;</description>
         <content:encoded>&lt;p&gt;使用 Ubuntu 过程中遇到的问题及解决方案。&lt;/p&gt;
 &lt;h2 id=&#34;使用-git-pull-遇到问题&#34;&gt;使用 git pull 遇到问题&lt;/h2&gt;

@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>DevOps on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/devops/</link>
-    <description>Recent content in DevOps on 飞鸟的博客站</description>
+    <title>DevOps on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/devops/</link>
+    <description>Recent content in DevOps on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 16 Aug 2018 21:25:53 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/devops/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>一分钟告诉你究竟DevOps是什么鬼？</title>
-        <link>https://starifly.github.io/posts/what-the-hell-is-devops/</link>
+        <link>https://luoxding.github.io/posts/what-the-hell-is-devops/</link>
         <pubDate>Thu, 16 Aug 2018 21:25:53 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 17 Mar 2019 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/what-the-hell-is-devops/</guid>
+        <guid>https://luoxding.github.io/posts/what-the-hell-is-devops/</guid>
         <description>&lt;h1 id=&#34;一分钟告诉你究竟devops是什么鬼httpswwwcnblogscomjetzhangp6068773html&#34;&gt;
 
 &lt;a href=&#34;https://www.cnblogs.com/jetzhang/p/6068773.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;一分钟告诉你究竟DevOps是什么鬼？&lt;/a&gt;&lt;/h1&gt;

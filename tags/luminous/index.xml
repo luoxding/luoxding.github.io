@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>luminous on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/luminous/</link>
-    <description>Recent content in luminous on 飞鸟的博客站</description>
+    <title>luminous on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/luminous/</link>
+    <description>Recent content in luminous on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 16:16:07 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/luminous/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/luminous/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>Docker安装ceph luminous</title>
-        <link>https://starifly.github.io/posts/docker-install-ceph-luminous/</link>
+        <link>https://luoxding.github.io/posts/docker-install-ceph-luminous/</link>
         <pubDate>Wed, 06 Oct 2021 16:16:07 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 16:16:07 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/docker-install-ceph-luminous/</guid>
+        <guid>https://luoxding.github.io/posts/docker-install-ceph-luminous/</guid>
         <description>本文基于centos7以docker方式安装ceph 12.2.13版本 操作系统基础配置 三节点创建文件夹： mkdir -p /etc/ceph/ /var/lib/ceph/ /var/log/ceph/ chown -R 167:167 /var/log/ceph/ 配置定时任务 systemctl start ntpd</description>
         <content:encoded>&lt;p&gt;本文基于centos7以docker方式安装ceph 12.2.13版本&lt;/p&gt;
 &lt;h2 id=&#34;操作系统基础配置&#34;&gt;操作系统基础配置&lt;/h2&gt;

@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>clang on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/clang/</link>
-    <description>Recent content in clang on 飞鸟的博客站</description>
+    <title>clang on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/clang/</link>
+    <description>Recent content in clang on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 16 Aug 2018 10:36:02 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/clang/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/clang/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>使用 CMake 不用路径地调用 libclang</title>
-        <link>https://starifly.github.io/posts/cmake-clang/</link>
+        <link>https://luoxding.github.io/posts/cmake-clang/</link>
         <pubDate>Thu, 16 Aug 2018 10:36:02 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 16 Aug 2018 10:36:02 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/cmake-clang/</guid>
+        <guid>https://luoxding.github.io/posts/cmake-clang/</guid>
         <description>作为一个有高尚的情操的程序员，应该学会在写非练手项目的时候构建流程不使用与本机路径相关的依赖，这样把代码往 CI 上部署、在公司与个人电脑间传输、</description>
         <content:encoded>&lt;p&gt;作为一个有高尚的情操的程序员，应该学会在写非练手项目的时候构建流程不使用与本机路径相关的依赖，这样把代码往 CI 上部署、在公司与个人电脑间传输、或者给别人用的时候都方便的多。&lt;/p&gt;
 &lt;p&gt;如果有 gradle, pip, gem, maven, sbt 这类基于包的构建工具的话，这根本就不是问题。别人写的依赖可以在远端调用，自己写的依赖也可以本地调用。&lt;br /&gt;

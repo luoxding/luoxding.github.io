@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>efk on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/efk/</link>
-    <description>Recent content in efk on 飞鸟的博客站</description>
+    <title>efk on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/efk/</link>
+    <description>Recent content in efk on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sun, 29 Jan 2023 22:24:18 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/efk/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/efk/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>k8s部署EFK</title>
-        <link>https://starifly.github.io/posts/k8s-efk/</link>
+        <link>https://luoxding.github.io/posts/k8s-efk/</link>
         <pubDate>Sun, 29 Jan 2023 22:24:18 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 29 Jan 2023 22:24:18 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/k8s-efk/</guid>
+        <guid>https://luoxding.github.io/posts/k8s-efk/</guid>
         <description>elasticsearch cat elasticsearch.yaml apiVersion: apps/v1 kind: StatefulSet metadata: name: es-cluster spec: serviceName: elasticsearch replicas: 1 selector: matchLabels: app: elasticsearch template: metadata: labels: app: elasticsearch spec: containers: - name: elasticsearch #image: docker.elastic.co/elasticsearch/elasticsearch:7.5.0 image: elasticsearch:7.5.0 resources: limits: cpu: 1000m requests: cpu: 100m ports: - containerPort: 9200 name: rest protocol: TCP - containerPort: 9300 name: inter-node protocol: TCP # volumeMounts: # - name: data # mountPath: /usr/share/elasticsearch/data env: - name: cluster.name value: k8s-logs</description>
         <content:encoded>&lt;h2 id=&#34;elasticsearch&#34;&gt;elasticsearch&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;l&#34;&gt;cat elasticsearch.yaml&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;

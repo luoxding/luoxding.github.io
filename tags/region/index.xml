@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>region on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/region/</link>
-    <description>Recent content in region on 飞鸟的博客站</description>
+    <title>region on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/region/</link>
+    <description>Recent content in region on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 19:35:17 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/region/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/region/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>ceph rgw创建新的region</title>
-        <link>https://starifly.github.io/posts/ceph-rgw-create-a-new-region/</link>
+        <link>https://luoxding.github.io/posts/ceph-rgw-create-a-new-region/</link>
         <pubDate>Wed, 06 Oct 2021 19:35:17 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 19:35:17 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-rgw-create-a-new-region/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-rgw-create-a-new-region/</guid>
         <description>概念： 1、zone：可用区，有一个或多个对象网关实例组成。zone不可以跨集群，配置zone不同于其他典型配置，因为不需要在ceph.con</description>
         <content:encoded>&lt;p&gt;概念：   &lt;br /&gt;
 1、zone：可用区，有一个或多个对象网关实例组成。zone不可以跨集群，配置zone不同于其他典型配置，因为不需要在ceph.conf中配置。&lt;br /&gt;

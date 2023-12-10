@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>画图 on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/%E7%94%BB%E5%9B%BE/</link>
-    <description>Recent content in 画图 on 飞鸟的博客站</description>
+    <title>画图 on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/%E7%94%BB%E5%9B%BE/</link>
+    <description>Recent content in 画图 on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Mon, 30 Jan 2023 18:38:49 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/%E7%94%BB%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/%E7%94%BB%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>画图</title>
-        <link>https://starifly.github.io/posts/draw/</link>
+        <link>https://luoxding.github.io/posts/draw/</link>
         <pubDate>Mon, 30 Jan 2023 18:38:49 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 25 Oct 2023 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/draw/</guid>
+        <guid>https://luoxding.github.io/posts/draw/</guid>
         <description>工具 draw.io 这个网站是大家一提到思维导图流程图啥的就会搬出来的“大佬级”的网站，几乎全平台都可用，Windows、MAC、在线网站都可以直接使用。</description>
         <content:encoded>&lt;h2 id=&#34;工具&#34;&gt;工具&lt;/h2&gt;
 &lt;h3 id=&#34;drawio&#34;&gt;draw.io&lt;/h3&gt;
@@ -160,10 +160,10 @@
 &lt;a href=&#34;https://github.com/kubernetes/community/tree/master/icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/kubernetes/community/tree/master/icons&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;一些案例&#34;&gt;一些案例&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/arch-05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/arch-05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content:encoded>
         <dc:creator>starifly</dc:creator>
         

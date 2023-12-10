@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>mysql on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/mysql/</link>
-    <description>Recent content in mysql on 飞鸟的博客站</description>
+    <title>mysql on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/mysql/</link>
+    <description>Recent content in mysql on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 04 Nov 2023 11:11:17 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,26 +26,26 @@
       
       <item>
         <title>keepalived&#43;mysql双主集群单主可写</title>
-        <link>https://starifly.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</link>
+        <link>https://luoxding.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</link>
         <pubDate>Sat, 04 Nov 2023 11:11:17 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 11:11:17 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</guid>
+        <guid>https://luoxding.github.io/posts/keepalived-mysql-dual-master-cluster-single-master-can-write/</guid>
         <description>keepalived高可用介绍及改造方案 具体配置-passwd方式 192.168.5.31 # keepalived.conf ! Configuration File for keepalived global_defs { router_id db01 } vrrp_sync_group G1 { group { VI_1 } } vrrp_script check_run { script &amp;#34;/etc/keepalived/mysql_check.sh&amp;#34; interval 10 fall 3 } vrrp_instance VI_1 { state BACKUP interface</description>
         <content:encoded>&lt;h2 id=&#34;keepalived高可用介绍及改造方案&#34;&gt;keepalived高可用介绍及改造方案&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_07.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_08.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/keealived_13.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_02.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_03.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_05.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_07.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_08.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_10.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_11.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_12.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/keealived_13.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;具体配置-passwd方式&#34;&gt;具体配置-passwd方式&lt;/h2&gt;
 &lt;h3 id=&#34;192168531&#34;&gt;192.168.5.31&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cfg&#34; data-lang=&#34;cfg&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# keepalived.conf&lt;/span&gt;
@@ -1364,11 +1364,11 @@
       
       <item>
         <title>Mysql Galera Cluster</title>
-        <link>https://starifly.github.io/posts/mysql-galera-cluster/</link>
+        <link>https://luoxding.github.io/posts/mysql-galera-cluster/</link>
         <pubDate>Sat, 04 Nov 2023 10:58:51 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:58:51 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/mysql-galera-cluster/</guid>
+        <guid>https://luoxding.github.io/posts/mysql-galera-cluster/</guid>
         <description>介绍 Galera Cluster主要功能 同步复制 真正的multi-master，即所有节点可以同时读写数据库 自动的节点成员控制，失效节点自动被清除 新节点</description>
         <content:encoded>&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Galera Cluster主要功能&lt;/strong&gt;&lt;/p&gt;
@@ -1650,11 +1650,11 @@
       
       <item>
         <title>mysql授予账户权限问题</title>
-        <link>https://starifly.github.io/posts/mysql-account-permission-grant-problem/</link>
+        <link>https://luoxding.github.io/posts/mysql-account-permission-grant-problem/</link>
         <pubDate>Sat, 04 Nov 2023 10:49:13 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:49:13 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/mysql-account-permission-grant-problem/</guid>
+        <guid>https://luoxding.github.io/posts/mysql-account-permission-grant-problem/</guid>
         <description>mysql通过root账号登录，新建账户并授予权限会报错： mysql&amp;gt; GRANT SELECT ON *.* TO &amp;#39;select_user&amp;#39;@&amp;#39;%&amp;#39;; ERROR 1045 (28000): Access denied for user &amp;#39;root&amp;#39;@&amp;#39;%&amp;#39; (using password: YES) 解决方案： mysql&amp;gt; update mysql.user set Grant_priv=&amp;#39;Y&amp;#39; where user = &amp;#39;root&amp;#39; and host = &amp;#39;%&amp;#39;; Query OK, 1 row affected</description>
         <content:encoded>&lt;p&gt;mysql通过root账号登录，新建账户并授予权限会报错：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;mysql&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;GRANT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;SELECT&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ON&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;k&#34;&gt;TO&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;select_user&amp;#39;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;%&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;

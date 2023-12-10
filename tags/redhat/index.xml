@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>redhat on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/redhat/</link>
-    <description>Recent content in redhat on 飞鸟的博客站</description>
+    <title>redhat on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/redhat/</link>
+    <description>Recent content in redhat on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 04 Nov 2023 10:17:22 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/redhat/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/redhat/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>U盘安装RedHat</title>
-        <link>https://starifly.github.io/posts/install-redhat-via-usb-disk/</link>
+        <link>https://luoxding.github.io/posts/install-redhat-via-usb-disk/</link>
         <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 04 Nov 2023 10:17:22 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/install-redhat-via-usb-disk/</guid>
+        <guid>https://luoxding.github.io/posts/install-redhat-via-usb-disk/</guid>
         <description>刚开始网上查教程，大部分都说使用UltraISO刻录U盘启动盘，但是坑爹的是通过这种方式刻录的启动盘在安装过程中会找不到安装介质，所以不能使</description>
         <content:encoded>&lt;p&gt;刚开始网上查教程，大部分都说使用UltraISO刻录U盘启动盘，但是坑爹的是通过这种方式刻录的启动盘在安装过程中会找不到安装介质，所以不能使用这种方式。&lt;/p&gt;
 &lt;p&gt;后面查询其它的教程，得知可以使用Rufus制作，先格式化U盘，卷标名称位数不要超过11位，具体的刻录过程这里就不说明了。&lt;/p&gt;

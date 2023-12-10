@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>librados on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/librados/</link>
-    <description>Recent content in librados on 飞鸟的博客站</description>
+    <title>librados on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/librados/</link>
+    <description>Recent content in librados on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 16:51:53 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/librados/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/librados/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>ceph librados库c&#43;&#43;使用</title>
-        <link>https://starifly.github.io/posts/ceph-librados-c&#43;&#43;-use/</link>
+        <link>https://luoxding.github.io/posts/ceph-librados-c&#43;&#43;-use/</link>
         <pubDate>Wed, 06 Oct 2021 16:51:53 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 16:51:53 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-librados-c&#43;&#43;-use/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-librados-c&#43;&#43;-use/</guid>
         <description>依赖 # centos yum install librados2-devel 源程序 #include &amp;lt;iostream&amp;gt; #include &amp;lt;string&amp;gt; #include &amp;lt;rados/librados.hpp&amp;gt; int main(int argc, const char **argv) { int ret = 0; /* Declare the cluster handle and required variables. */ librados::Rados cluster; char cluster_name[] = &amp;#34;ceph&amp;#34;; char user_name[] = &amp;#34;client.admin&amp;#34;; uint64_t flags = 0; /* Initialize the cluster handle with the &amp;#34;ceph&amp;#34; cluster name and &amp;#34;client.admin&amp;#34; user */ { ret = cluster.init2(user_name, cluster_name, flags);</description>
         <content:encoded>&lt;h2 id=&#34;依赖&#34;&gt;依赖&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# centos&lt;/span&gt;

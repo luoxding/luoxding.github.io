@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>ubuntu on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/ubuntu/</link>
-    <description>Recent content in ubuntu on 飞鸟的博客站</description>
+    <title>ubuntu on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/ubuntu/</link>
+    <description>Recent content in ubuntu on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 15 Aug 2018 22:25:03 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>Ubuntu 使用笔记</title>
-        <link>https://starifly.github.io/posts/use-ubuntu-notes/</link>
+        <link>https://luoxding.github.io/posts/use-ubuntu-notes/</link>
         <pubDate>Wed, 15 Aug 2018 22:25:03 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/use-ubuntu-notes/</guid>
+        <guid>https://luoxding.github.io/posts/use-ubuntu-notes/</guid>
         <description>&lt;p&gt;使用 Ubuntu 过程中遇到的问题及解决方案。&lt;/p&gt;</description>
         <content:encoded>&lt;p&gt;使用 Ubuntu 过程中遇到的问题及解决方案。&lt;/p&gt;
 &lt;h2 id=&#34;使用-git-pull-遇到问题&#34;&gt;使用 git pull 遇到问题&lt;/h2&gt;

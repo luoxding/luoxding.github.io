@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>learning on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/learning/</link>
-    <description>Recent content in learning on 飞鸟的博客站</description>
+    <title>learning on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/learning/</link>
+    <description>Recent content in learning on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Fri, 17 Aug 2018 15:51:10 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>Learning Something</title>
-        <link>https://starifly.github.io/posts/learning-something/</link>
+        <link>https://luoxding.github.io/posts/learning-something/</link>
         <pubDate>Fri, 17 Aug 2018 15:51:10 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Tue, 28 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/learning-something/</guid>
+        <guid>https://luoxding.github.io/posts/learning-something/</guid>
         <description>Learning How to Learn 关于编程的练习方法——读《刻意练习》有感 《如何阅读一本书》阅读笔记 工作流 笔记：有关开源项目 有一种焦虑叫：什么都想学，但什么都学不会 你</description>
         <content:encoded>&lt;ol&gt;
 &lt;li&gt;

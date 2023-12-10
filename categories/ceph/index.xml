@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>ceph on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/ceph/</link>
-    <description>Recent content in ceph on 飞鸟的博客站</description>
+    <title>ceph on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/ceph/</link>
+    <description>Recent content in ceph on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 26 Jan 2023 19:06:05 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/ceph/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/ceph/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,16 +26,16 @@
       
       <item>
         <title>ceph硬件布置参考</title>
-        <link>https://starifly.github.io/posts/ceph-hardware-layout-reference/</link>
+        <link>https://luoxding.github.io/posts/ceph-hardware-layout-reference/</link>
         <pubDate>Thu, 26 Jan 2023 19:06:05 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 26 Jan 2023 19:06:05 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-hardware-layout-reference/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-hardware-layout-reference/</guid>
         <description>1、网络拓扑参考 2、设备位置图参考 3、服务器配置信息及运行服务统计 一般来说，内存越多越好。 对于一个中等规模的集群，监视/管理器节点可以使用6</description>
         <content:encoded>&lt;p&gt;1、网络拓扑参考&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/ceph-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/ceph-01.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;2、设备位置图参考&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/ceph-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/ceph-02.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;3、服务器配置信息及运行服务统计&lt;/p&gt;
 &lt;p&gt;一般来说，内存越多越好。&lt;/p&gt;
 &lt;p&gt;对于一个中等规模的集群，监视/管理器节点可以使用64GB；对于具有数百个osd的大型集群，128GB是一个合理的目标。&lt;/p&gt;
@@ -43,10 +43,10 @@
 &lt;p&gt;最低硬件建议，详解见
 
 &lt;a href=&#34;https://docs.ceph.com/en/latest/start/hardware-recommendations/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.ceph.com/en/latest/start/hardware-recommendations/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/ceph-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/ceph-04.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/ceph-05.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/ceph-06.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/ceph-03.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/ceph-04.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/ceph-05.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/ceph-06.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -75,11 +75,11 @@
       
       <item>
         <title>ceph故障域</title>
-        <link>https://starifly.github.io/posts/ceph-crushmap/</link>
+        <link>https://luoxding.github.io/posts/ceph-crushmap/</link>
         <pubDate>Thu, 26 Jan 2023 19:01:44 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 26 Jan 2023 19:01:44 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-crushmap/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-crushmap/</guid>
         <description>准备 1、执行ceph -s确认存储集群状态，保证为健康状态。 [root@ceph001 ~]# ceph -s cluster: id: d00c744a-17f6-4768-95de-1243202557f2 health: HEALTH_OK services: mon: 3 daemons, quorum ceph001,ceph002,ceph003 (age 41m) mgr: ceph001(active, since 43m), standbys: ceph003 mds: cephfs:1 {0=ceoh002=up:active} 2 up:standby osd: 6 osds: 6 up (since 3m), 6 in (since 3m) rgw: 3</description>
         <content:encoded>&lt;h2 id=&#34;准备&#34;&gt;准备&lt;/h2&gt;
 &lt;p&gt;1、执行ceph -s确认存储集群状态，保证为健康状态。&lt;/p&gt;
@@ -294,11 +294,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>Ceph如何扩展到超过十亿个对象</title>
-        <link>https://starifly.github.io/posts/how-ceph-scales-to-more-than-one-billion-objects/</link>
+        <link>https://luoxding.github.io/posts/how-ceph-scales-to-more-than-one-billion-objects/</link>
         <pubDate>Thu, 26 Jan 2023 18:58:29 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 26 Jan 2023 18:58:29 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/how-ceph-scales-to-more-than-one-billion-objects/</guid>
+        <guid>https://luoxding.github.io/posts/how-ceph-scales-to-more-than-one-billion-objects/</guid>
         <description>https://stor.51cto.com/art/202006/618273.htm#topx</description>
         <content:encoded>&lt;p&gt;
 
@@ -325,11 +325,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>ceph在不复制rgw的情况下配置多个区域</title>
-        <link>https://starifly.github.io/posts/ceph-configure-multi-regions-without-replicating-rgw/</link>
+        <link>https://luoxding.github.io/posts/ceph-configure-multi-regions-without-replicating-rgw/</link>
         <pubDate>Thu, 26 Jan 2023 18:56:35 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 26 Jan 2023 18:56:35 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-configure-multi-regions-without-replicating-rgw/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-configure-multi-regions-without-replicating-rgw/</guid>
         <description>ceph 在同一个集群配置多个zone，但不同 zone 之间的 rgw 不复制，这种情形应该可以适应多租户环境，因为希望每个租户之间的数据是相互独立的，具体配置可以</description>
         <content:encoded>&lt;p&gt;ceph 在同一个集群配置多个zone，但不同 zone 之间的 rgw 不复制，这种情形应该可以适应多租户环境，因为希望每个租户之间的数据是相互独立的，具体配置可以参考 
 
@@ -360,11 +360,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>ceph rgw同步</title>
-        <link>https://starifly.github.io/posts/ceph-rgw-sync/</link>
+        <link>https://luoxding.github.io/posts/ceph-rgw-sync/</link>
         <pubDate>Thu, 26 Jan 2023 18:53:34 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 26 Jan 2023 18:53:34 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-rgw-sync/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-rgw-sync/</guid>
         <description>环境 源 ceph 集群（192.168.5.203:20003） 基于源集群创建一个新的 rgw 端点(192.168.5.128:7480)，用于将数据同步到</description>
         <content:encoded>&lt;h2 id=&#34;环境&#34;&gt;环境&lt;/h2&gt;
 &lt;ul&gt;
@@ -448,11 +448,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>Ceph与其它存储系统对比</title>
-        <link>https://starifly.github.io/posts/ceph-vs-other-storage/</link>
+        <link>https://luoxding.github.io/posts/ceph-vs-other-storage/</link>
         <pubDate>Thu, 26 Jan 2023 18:51:55 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 26 Jan 2023 18:51:55 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-vs-other-storage/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-vs-other-storage/</guid>
         <description>https://blog.csdn.net/Michaelwubo/article/details/113109341</description>
         <content:encoded>&lt;p&gt;
 
@@ -479,11 +479,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>Ceph运维操作</title>
-        <link>https://starifly.github.io/posts/ceph-opetations/</link>
+        <link>https://luoxding.github.io/posts/ceph-opetations/</link>
         <pubDate>Wed, 06 Oct 2021 21:38:48 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 21:38:48 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-opetations/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-opetations/</guid>
         <description>07 分布式存储ceph运维操作</description>
         <content:encoded>&lt;p&gt;
 
@@ -510,11 +510,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>Ceph理论篇</title>
-        <link>https://starifly.github.io/posts/ceph-theory/</link>
+        <link>https://luoxding.github.io/posts/ceph-theory/</link>
         <pubDate>Wed, 06 Oct 2021 21:36:45 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 21:36:45 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-theory/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-theory/</guid>
         <description>01 分布式存储Ceph理论篇</description>
         <content:encoded>&lt;p&gt;
 
@@ -541,11 +541,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>ceph s3 java开发相关</title>
-        <link>https://starifly.github.io/posts/ceph-s3-java-related/</link>
+        <link>https://luoxding.github.io/posts/ceph-s3-java-related/</link>
         <pubDate>Wed, 06 Oct 2021 21:18:38 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 21:18:38 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-s3-java-related/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-s3-java-related/</guid>
         <description>ceps s3 java开发相关： AWS s3 java api使用 - https://blog.csdn.net/smallhujiu/article/details/87204090 https://hub.fastgit.org/aws-samples/aws-java-sample 使用 AWS SDK for Java 的 Amazon S3示例 - https://docs.aws.amazon.com/zh_cn/sdk-for-java/v1/developer-guide/examples-s3.html https://hub.fastgit.org/awsdocs/aws-doc-sdk-examples/tree/master/java/example_code/s3 https://hub.fastgit.org/aws/aws-sdk-java 适用于 Java 的 AWS 开发工具包 - https://aws.amazon.com/cn/sdk-for-java/ https://docs.ceph.com/en/latest/radosgw/s3/java/ Uploading and copying objects using multipart upload - https://docs.aws.amazon.com/AmazonS3/latest/userguide/mpuoverview.html 另外可以使用 https://github.com/minio/minio-java 开发</description>
         <content:encoded>&lt;p&gt;ceps s3 java开发相关：&lt;/p&gt;
 &lt;p&gt;AWS s3 java api使用 - 
@@ -609,11 +609,11 @@ replicated_rule_rack_ssd：用于普通ssd分区为osd，以rack为故障域的�
       
       <item>
         <title>Ceph RGW使用</title>
-        <link>https://starifly.github.io/posts/ceph-rgw-use/</link>
+        <link>https://luoxding.github.io/posts/ceph-rgw-use/</link>
         <pubDate>Wed, 06 Oct 2021 21:07:15 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 21:07:15 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-rgw-use/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-rgw-use/</guid>
         <description>Ceph使用系列之——Ceph RGW使用 Ceph-对象存储：S3使用手册实践 中的文件夹部分 06 分布式存储ceph创建rgw接口</description>
         <content:encoded>&lt;p&gt;
 

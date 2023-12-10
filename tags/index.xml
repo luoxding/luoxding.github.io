@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Tags on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/</link>
-    <description>Recent content in Tags on 飞鸟的博客站</description>
+    <title>Tags on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/</link>
+    <description>Recent content in Tags on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 04 Nov 2023 11:11:17 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>keepalived</title>
-        <link>https://starifly.github.io/tags/keepalived/</link>
+        <link>https://luoxding.github.io/tags/keepalived/</link>
         <pubDate>Sat, 04 Nov 2023 11:11:17 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/keepalived/</guid>
+        <guid>https://luoxding.github.io/tags/keepalived/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -44,11 +44,11 @@
       
       <item>
         <title>mysql</title>
-        <link>https://starifly.github.io/tags/mysql/</link>
+        <link>https://luoxding.github.io/tags/mysql/</link>
         <pubDate>Sat, 04 Nov 2023 11:11:17 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/mysql/</guid>
+        <guid>https://luoxding.github.io/tags/mysql/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -62,11 +62,11 @@
       
       <item>
         <title>demo</title>
-        <link>https://starifly.github.io/tags/demo/</link>
+        <link>https://luoxding.github.io/tags/demo/</link>
         <pubDate>Sat, 04 Nov 2023 10:58:51 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/demo/</guid>
+        <guid>https://luoxding.github.io/tags/demo/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -80,11 +80,11 @@
       
       <item>
         <title>linux</title>
-        <link>https://starifly.github.io/tags/linux/</link>
+        <link>https://luoxding.github.io/tags/linux/</link>
         <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/linux/</guid>
+        <guid>https://luoxding.github.io/tags/linux/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -98,11 +98,11 @@
       
       <item>
         <title>redhat</title>
-        <link>https://starifly.github.io/tags/redhat/</link>
+        <link>https://luoxding.github.io/tags/redhat/</link>
         <pubDate>Sat, 04 Nov 2023 10:17:22 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/redhat/</guid>
+        <guid>https://luoxding.github.io/tags/redhat/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -116,11 +116,11 @@
       
       <item>
         <title>cronjob</title>
-        <link>https://starifly.github.io/tags/cronjob/</link>
+        <link>https://luoxding.github.io/tags/cronjob/</link>
         <pubDate>Sat, 04 Nov 2023 09:50:50 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/cronjob/</guid>
+        <guid>https://luoxding.github.io/tags/cronjob/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -134,11 +134,11 @@
       
       <item>
         <title>k8s</title>
-        <link>https://starifly.github.io/tags/k8s/</link>
+        <link>https://luoxding.github.io/tags/k8s/</link>
         <pubDate>Sat, 04 Nov 2023 09:50:50 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/k8s/</guid>
+        <guid>https://luoxding.github.io/tags/k8s/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -152,11 +152,11 @@
       
       <item>
         <title>docker</title>
-        <link>https://starifly.github.io/tags/docker/</link>
+        <link>https://luoxding.github.io/tags/docker/</link>
         <pubDate>Sat, 04 Nov 2023 09:42:36 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/docker/</guid>
+        <guid>https://luoxding.github.io/tags/docker/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -170,11 +170,11 @@
       
       <item>
         <title>java</title>
-        <link>https://starifly.github.io/tags/java/</link>
+        <link>https://luoxding.github.io/tags/java/</link>
         <pubDate>Sat, 04 Nov 2023 09:42:36 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/java/</guid>
+        <guid>https://luoxding.github.io/tags/java/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>
@@ -188,11 +188,11 @@
       
       <item>
         <title>loki</title>
-        <link>https://starifly.github.io/tags/loki/</link>
+        <link>https://luoxding.github.io/tags/loki/</link>
         <pubDate>Fri, 17 Feb 2023 16:25:55 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         
-        <guid>https://starifly.github.io/tags/loki/</guid>
+        <guid>https://luoxding.github.io/tags/loki/</guid>
         <description></description>
         <content:encoded></content:encoded>
         <dc:creator>飞鸟</dc:creator>

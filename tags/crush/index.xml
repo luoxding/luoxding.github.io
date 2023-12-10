@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>crush on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/crush/</link>
-    <description>Recent content in crush on 飞鸟的博客站</description>
+    <title>crush on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/crush/</link>
+    <description>Recent content in crush on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 17:14:18 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/crush/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/crush/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>Ceph 硬件选型、crush规则及region</title>
-        <link>https://starifly.github.io/posts/ceph-hardware-planning-crush-rules-and-region/</link>
+        <link>https://luoxding.github.io/posts/ceph-hardware-planning-crush-rules-and-region/</link>
         <pubDate>Wed, 06 Oct 2021 17:14:18 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 21:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-hardware-planning-crush-rules-and-region/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-hardware-planning-crush-rules-and-region/</guid>
         <description>Reference 附录2、ceph安装配置介绍与主机优化 [ ceph ] CEPH 部署完整版（CentOS 7 + luminous） 03 分布式存储ceph之crush规则配置 动态设</description>
         <content:encoded>&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
 &lt;ul&gt;

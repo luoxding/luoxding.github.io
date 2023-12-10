@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>bucket on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/bucket/</link>
-    <description>Recent content in bucket on 飞鸟的博客站</description>
+    <title>bucket on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/bucket/</link>
+    <description>Recent content in bucket on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 19:31:32 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/bucket/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/bucket/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>ceph rgw桶分片问题</title>
-        <link>https://starifly.github.io/posts/ceph-rgw-bucket-shard-problem/</link>
+        <link>https://luoxding.github.io/posts/ceph-rgw-bucket-shard-problem/</link>
         <pubDate>Wed, 06 Oct 2021 19:31:32 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 19:31:32 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-rgw-bucket-shard-problem/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-rgw-bucket-shard-problem/</guid>
         <description>背景说明 RGW 为每个 bucket 维护了一份索引，里面保存了 bucket 中全部对象的元数据。RGW 本身并没有足够有效的遍历对象的能力，所以在处理请求时，这些索引数据非</description>
         <content:encoded>&lt;h2 id=&#34;背景说明&#34;&gt;背景说明&lt;/h2&gt;
 &lt;p&gt;RGW 为每个 bucket 维护了一份索引，里面保存了 bucket 中全部对象的元数据。RGW 本身并没有足够有效的遍历对象的能力，所以在处理请求时，这些索引数据非常重要，比如遍历 bucket 中全部对象时。bucket 索引信息还有其他用处，比如为版本控制的对象维护日志、bucket 配额元数据和跨区同步的日志。bucket 索引不会影响对象的读操作，但写和修改确实会增加一些额外的操作。&lt;/p&gt;

@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>CI on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/ci/</link>
-    <description>Recent content in CI on 飞鸟的博客站</description>
+    <title>CI on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/ci/</link>
+    <description>Recent content in CI on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 18 Aug 2018 12:18:32 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/ci/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>使用Webhook和Github实现hugo的自动部署</title>
-        <link>https://starifly.github.io/posts/webhook-github-autodeploy/</link>
+        <link>https://luoxding.github.io/posts/webhook-github-autodeploy/</link>
         <pubDate>Sat, 18 Aug 2018 12:18:32 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 18 Aug 2018 12:18:32 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/webhook-github-autodeploy/</guid>
+        <guid>https://luoxding.github.io/posts/webhook-github-autodeploy/</guid>
         <description>&lt;p&gt;之前
 
 &lt;a href=&#34;https://itlaws.cn/post/hugo-caddy-autodeplay/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;《通过github和caddy实现hugo的自动部署》&lt;/a&gt;，使用的是 caddy 的 http.git 插件。最近发现，那方法不管用了，不知道原因。&lt;/p&gt;
@@ -146,11 +146,11 @@
       
       <item>
         <title>Hugo 自动化部署脚本</title>
-        <link>https://starifly.github.io/posts/hugo-deploy-script/</link>
+        <link>https://luoxding.github.io/posts/hugo-deploy-script/</link>
         <pubDate>Sat, 18 Aug 2018 12:01:32 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 18 Aug 2018 12:01:32 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/hugo-deploy-script/</guid>
+        <guid>https://luoxding.github.io/posts/hugo-deploy-script/</guid>
         <description>&lt;p&gt;之前我写了一个脚本用来自动部署我的 Hugo 博客，今天闲来无事完善了一下这个脚本，使这个脚本更加通用一些。&lt;/p&gt;
 &lt;p&gt;脚本路径：
 
@@ -232,11 +232,11 @@
       
       <item>
         <title>通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages</title>
-        <link>https://starifly.github.io/posts/use-webhook-automated-deploy-hugo/</link>
+        <link>https://luoxding.github.io/posts/use-webhook-automated-deploy-hugo/</link>
         <pubDate>Thu, 16 Aug 2018 21:13:08 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 18 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/use-webhook-automated-deploy-hugo/</guid>
+        <guid>https://luoxding.github.io/posts/use-webhook-automated-deploy-hugo/</guid>
         <description>&lt;p&gt;本文的主要内容如标题所示，通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages。如果你正好有这个需求，看这篇文章正好，可以节省你不少时间。如果不是，了解一下也无妨。&lt;/p&gt;</description>
         <content:encoded>&lt;p&gt;本文的主要内容如标题所示，通过webhook将Hugo自动部署至GitHub Pages和GitCafe Pages。如果你正好有这个需求，看这篇文章正好，可以节省你不少时间。如果不是，了解一下也无妨。&lt;/p&gt;
 &lt;p&gt;首先，必须解释一下，为什么需要自动部署，以及为什么需要需要同时部署到GitHub Pages和GitCafe Pages。&lt;/p&gt;
@@ -369,11 +369,11 @@ go version
       
       <item>
         <title>持续集成教程 1 通识科普</title>
-        <link>https://starifly.github.io/posts/travis-basis/</link>
+        <link>https://luoxding.github.io/posts/travis-basis/</link>
         <pubDate>Thu, 16 Aug 2018 10:24:28 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/travis-basis/</guid>
+        <guid>https://luoxding.github.io/posts/travis-basis/</guid>
         <description>&lt;p&gt;本教程系列将以 Travis CI 为主，我也不知道以后会不会讲 AppVeyor ，我也不知道以后会不会讲 Circle CI 和 CodeShip 。&lt;br /&gt;
 这篇文章你可以把它当成一个索引，我给出了使用 Travis 需要阅读的内容，读者可以根据自己的需求选择阅读文档的特定部分。&lt;/p&gt;
 &lt;h2 id=&#34;ci-能做啥&#34;&gt;CI 能做啥&lt;/h2&gt;

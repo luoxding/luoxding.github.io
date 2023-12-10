@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>centos on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/centos/</link>
-    <description>Recent content in centos on 飞鸟的博客站</description>
+    <title>centos on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/centos/</link>
+    <description>Recent content in centos on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sat, 30 May 2020 21:59:57 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>Linux中病毒后的处理过程</title>
-        <link>https://starifly.github.io/posts/draft/virus-process-in-linux-system/</link>
+        <link>https://luoxding.github.io/posts/draft/virus-process-in-linux-system/</link>
         <pubDate>Sat, 30 May 2020 21:59:57 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 30 May 2020 21:59:57 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/draft/virus-process-in-linux-system/</guid>
+        <guid>https://luoxding.github.io/posts/draft/virus-process-in-linux-system/</guid>
         <description>之前一台 centos 虚拟机中毒，导致CPU飙升，这里记录下处理过程。 查找可疑进程 执行命令ll /proc/ID/exe，通过进程ID确定其执行路径，先删</description>
         <content:encoded>&lt;p&gt;之前一台 centos 虚拟机中毒，导致CPU飙升，这里记录下处理过程。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;查找可疑进程&lt;/strong&gt;&lt;/p&gt;

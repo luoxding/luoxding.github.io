@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>makefile on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/makefile/</link>
-    <description>Recent content in makefile on 飞鸟的博客站</description>
+    <title>makefile on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/makefile/</link>
+    <description>Recent content in makefile on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 16 Aug 2018 10:57:09 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/makefile/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/makefile/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>可移植的 Makefile 教程</title>
-        <link>https://starifly.github.io/posts/portable-makefile-tutorial/</link>
+        <link>https://luoxding.github.io/posts/portable-makefile-tutorial/</link>
         <pubDate>Thu, 16 Aug 2018 10:57:09 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/portable-makefile-tutorial/</guid>
+        <guid>https://luoxding.github.io/posts/portable-makefile-tutorial/</guid>
         <description>&lt;p&gt;在我写 Makefile 的头 10 年里，我养成了一个非常不好的习惯&lt;/p&gt;
 &lt;p&gt;&amp;ndash; 完全严格使用 GNU Make 的扩展名。过去我并不知道， GNU Make 与 POSIX 所保证的可移植特性之间的区别与联系。通常情况，它并不十分重要，但是当在非 Linux 系统上进行构建时，比如在各种 BSD 系统上，就会变成一件麻烦事儿。我不得不指定安装 GNU Make，然后在心里记住不要使用系统自带的 make ，而是使用 gmake 这样的工具来调用它。&lt;/p&gt;
 &lt;p&gt;我已经对 

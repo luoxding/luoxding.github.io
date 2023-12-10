@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>prometheus on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/prometheus/</link>
-    <description>Recent content in prometheus on 飞鸟的博客站</description>
+    <title>prometheus on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/prometheus/</link>
+    <description>Recent content in prometheus on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 19:20:04 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>使用grafana&#43;prometheus监控ceph集群并实现钉钉报警</title>
-        <link>https://starifly.github.io/posts/grafana-prometheus-monitor-ceph-cluster/</link>
+        <link>https://luoxding.github.io/posts/grafana-prometheus-monitor-ceph-cluster/</link>
         <pubDate>Wed, 06 Oct 2021 19:20:04 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 19:20:04 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/grafana-prometheus-monitor-ceph-cluster/</guid>
+        <guid>https://luoxding.github.io/posts/grafana-prometheus-monitor-ceph-cluster/</guid>
         <description>在Ceph Luminous之前的版本，可以使用第三方的Prometheus exporter ceph_exporter。 Ceph Luminous 12.2.1后的mgr中自带了P</description>
         <content:encoded>&lt;p&gt;在Ceph Luminous之前的版本，可以使用第三方的Prometheus exporter ceph_exporter。 Ceph Luminous 12.2.1后的mgr中自带了Prometheus插件，内置了 Prometheus ceph exporter，可以使用Ceph mgr内置的exporter作为Prometheus的target。&lt;/p&gt;
 &lt;p&gt;本系统组件（都是部署在 docker 容器中）如下：&lt;/p&gt;

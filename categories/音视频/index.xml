@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>音视频 on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/%E9%9F%B3%E8%A7%86%E9%A2%91/</link>
-    <description>Recent content in 音视频 on 飞鸟的博客站</description>
+    <title>音视频 on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/%E9%9F%B3%E8%A7%86%E9%A2%91/</link>
+    <description>Recent content in 音视频 on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 16 Aug 2018 18:31:24 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/%E9%9F%B3%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/%E9%9F%B3%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>使用flv.js做直播</title>
-        <link>https://starifly.github.io/posts/live-streaming-with-flv/</link>
+        <link>https://luoxding.github.io/posts/live-streaming-with-flv/</link>
         <pubDate>Thu, 16 Aug 2018 18:31:24 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/live-streaming-with-flv/</guid>
+        <guid>https://luoxding.github.io/posts/live-streaming-with-flv/</guid>
         <description>&lt;p&gt;为什么要在这个时候探索flv.js做直播呢？原因在于各大浏览器厂商已经默认禁用Flash，之前常见的Flash直播方案需要用户同意使用Flash后才可以正常使用直播功能，这样的用户体验很致命。&lt;/p&gt;
 &lt;p&gt;在介绍flv.js之前先介绍下常见的直播协议以及给出我对它们的延迟与性能所做的测试得出的数据。&lt;br /&gt;
 如果你看的很吃力可以先了解下音视频技术的一些
@@ -268,11 +268,11 @@
       
       <item>
         <title>音视频技术参考资料</title>
-        <link>https://starifly.github.io/posts/audio-video-tech-references/</link>
+        <link>https://luoxding.github.io/posts/audio-video-tech-references/</link>
         <pubDate>Thu, 16 Aug 2018 11:41:15 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 19 Aug 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/audio-video-tech-references/</guid>
+        <guid>https://luoxding.github.io/posts/audio-video-tech-references/</guid>
         <description>&lt;h2 id=&#34;入门与概念&#34;&gt;入门与概念&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;

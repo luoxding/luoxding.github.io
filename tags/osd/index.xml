@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>osd on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/osd/</link>
-    <description>Recent content in osd on 飞鸟的博客站</description>
+    <title>osd on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/osd/</link>
+    <description>Recent content in osd on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Wed, 06 Oct 2021 19:08:43 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/osd/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/osd/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>ceph常见OSD故障处理</title>
-        <link>https://starifly.github.io/posts/ceph-osd-troubleshooting/</link>
+        <link>https://luoxding.github.io/posts/ceph-osd-troubleshooting/</link>
         <pubDate>Wed, 06 Oct 2021 19:08:43 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 19:08:43 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-osd-troubleshooting/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-osd-troubleshooting/</guid>
         <description>常见 OSD 故障处理 Reference 常见 OSD 故障处理</description>
         <content:encoded>&lt;p&gt;常见 OSD 故障处理&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;
@@ -65,11 +65,11 @@
       
       <item>
         <title>删除osd的正确方式</title>
-        <link>https://starifly.github.io/posts/ceph-del-osd-node/</link>
+        <link>https://luoxding.github.io/posts/ceph-del-osd-node/</link>
         <pubDate>Wed, 06 Oct 2021 19:05:09 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 06 Oct 2021 19:05:09 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/ceph-del-osd-node/</guid>
+        <guid>https://luoxding.github.io/posts/ceph-del-osd-node/</guid>
         <description>删除Ceph OSD节点 Reference 删除Ceph OSD节点</description>
         <content:encoded>&lt;p&gt;删除Ceph OSD节点&lt;/p&gt;
 &lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;

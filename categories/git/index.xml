@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>git on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/git/</link>
-    <description>Recent content in git on 飞鸟的博客站</description>
+    <title>git on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/git/</link>
+    <description>Recent content in git on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Thu, 30 Aug 2018 21:48:45 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>Git分支管理</title>
-        <link>https://starifly.github.io/posts/git-branch/</link>
+        <link>https://luoxding.github.io/posts/git-branch/</link>
         <pubDate>Thu, 30 Aug 2018 21:48:45 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 02 Sep 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/git-branch/</guid>
+        <guid>https://luoxding.github.io/posts/git-branch/</guid>
         <description>git的分支管理十分强大，本文主要涉及git中分支的查看和最基本的分支管理操作，主要包括分支的创建、切换、合并、衍合以及分支的推送和拉取等。</description>
         <content:encoded>&lt;p&gt;git的分支管理十分强大，本文主要涉及git中分支的查看和最基本的分支管理操作，主要包括分支的创建、切换、合并、衍合以及分支的推送和拉取等。同时还介绍了如何删除本地分支以及远程分支。&lt;/p&gt;
 &lt;p&gt;阅读前面的博文有助于理解本文：&lt;/p&gt;
@@ -198,11 +198,11 @@
       
       <item>
         <title>Git的撤销更改</title>
-        <link>https://starifly.github.io/posts/git-reset/</link>
+        <link>https://luoxding.github.io/posts/git-reset/</link>
         <pubDate>Wed, 29 Aug 2018 13:20:00 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sun, 09 Sep 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/git-reset/</guid>
+        <guid>https://luoxding.github.io/posts/git-reset/</guid>
         <description>&lt;p&gt;前文《
 
 &lt;a href=&#34;https://starifly.github.io/post/git-base/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git基本操作&lt;/a&gt;》介绍了Git的基本概念和一些基本操作。&lt;/p&gt;
@@ -330,13 +330,13 @@
       
       <item>
         <title>Git基本操作</title>
-        <link>https://starifly.github.io/posts/git-base/</link>
+        <link>https://luoxding.github.io/posts/git-base/</link>
         <pubDate>Sat, 25 Aug 2018 22:16:03 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Sat, 08 Sep 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/git-base/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/git-base.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
-        <content:encoded>&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/git-base.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+        <guid>https://luoxding.github.io/posts/git-base/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/git-base.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+        <content:encoded>&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/git-base.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;基本概念&#34;&gt;基本概念&lt;/h2&gt;
 &lt;h3 id=&#34;4个区&#34;&gt;4个区&lt;/h3&gt;
 &lt;p&gt;如上图所示，git有4个区，和svn有很大的不同，git中引入了暂存区/缓存区(Stage/Index)的概念&lt;/p&gt;
@@ -380,7 +380,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;在.gitconfig文件中 [core] 段中加上 editor=vim来修改git提交信息到编辑器为vim&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/git-commit.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/git-commit.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;如图所示，在vim编辑器中按照既定的格式编辑内容，编辑完成后保存退出，此时文件就commit成功了。如果临时改变主意不想提交了，删除备注信息后保存退出，&lt;br /&gt;
 此时提交就会终止。&lt;/p&gt;
 &lt;p&gt;提交成功之后，我们可以通过如下命令重新编辑上次提交的备注信息：&lt;/p&gt;
@@ -494,18 +494,18 @@
       
       <item>
         <title>git add -A 和 git add . 的区别</title>
-        <link>https://starifly.github.io/posts/git-add-difference/</link>
+        <link>https://luoxding.github.io/posts/git-add-difference/</link>
         <pubDate>Thu, 23 Aug 2018 20:18:10 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 23 Aug 2018 20:18:10 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/git-add-difference/</guid>
+        <guid>https://luoxding.github.io/posts/git-add-difference/</guid>
         <description>&lt;p&gt;git add -A、git add .和git add -u在功能上看似相近，但是有细微的差别，而且功能会随着git版本的不同而不同。&lt;/p&gt;</description>
         <content:encoded>&lt;p&gt;git add -A、git add .和git add -u在功能上看似相近，但是有细微的差别，而且功能会随着git版本的不同而不同。&lt;/p&gt;
 &lt;h2 id=&#34;区别&#34;&gt;区别&lt;/h2&gt;
 &lt;p&gt;Git Version 1.x:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/git-add-difference-01.jpg&#34; alt=&#34;&#34; title=&#34;Git Version 1.x&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/git-add-difference-01.jpg&#34; alt=&#34;&#34; title=&#34;Git Version 1.x&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Git Version 2.x:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://starifly.github.io/images/git-add-difference-02.jpg&#34; alt=&#34;&#34; title=&#34;Git Version 2.x&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://luoxding.github.io/images/git-add-difference-02.jpg&#34; alt=&#34;&#34; title=&#34;Git Version 2.x&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;git add -A就不用介绍了，它在任何情况下都是包括所有的变动。&lt;/li&gt;
@@ -534,11 +534,11 @@
       
       <item>
         <title>Git 和 GitHub简易入门</title>
-        <link>https://starifly.github.io/posts/git-intro/</link>
+        <link>https://luoxding.github.io/posts/git-intro/</link>
         <pubDate>Wed, 15 Aug 2018 21:51:39 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Wed, 15 Aug 2018 21:51:39 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/git-intro/</guid>
+        <guid>https://luoxding.github.io/posts/git-intro/</guid>
         <description>开始 拖延症与强迫症严重一直拖到了今天2月23号才开始写。这一段时间我也明白了博客最重要的是keep blogging,所以 想到什么就写什么，没</description>
         <content:encoded>&lt;h2 id=&#34;开始&#34;&gt;开始&lt;/h2&gt;
 &lt;p&gt;拖延症与强迫症严重一直拖到了今天2月23号才开始写。这一段时间我也明白了博客最重要的是&lt;code&gt;keep blogging&lt;/code&gt;,所以 想到什么就写什么，没有什么东西一次就能写的完美。这次我准备简单介绍一下当前非常火的代码托管与社会协作开发平台&amp;ndash;

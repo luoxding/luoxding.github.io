@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>loki on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/tags/loki/</link>
-    <description>Recent content in loki on 飞鸟的博客站</description>
+    <title>loki on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/tags/loki/</link>
+    <description>Recent content in loki on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Fri, 17 Feb 2023 16:25:55 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/tags/loki/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/tags/loki/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>k8s中部署loki</title>
-        <link>https://starifly.github.io/posts/loki/</link>
+        <link>https://luoxding.github.io/posts/loki/</link>
         <pubDate>Fri, 17 Feb 2023 16:25:55 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Fri, 17 Feb 2023 16:25:55 +0800</atom:modified>
-        <guid>https://starifly.github.io/posts/loki/</guid>
+        <guid>https://luoxding.github.io/posts/loki/</guid>
         <description>Loki 架构 Loki：主服务，用于存储日志和处理查询。 Promtail：代理服务，用于采集日志，并转发给 Loki。 Grafana：通过 Web 界面来提供</description>
         <content:encoded>&lt;h2 id=&#34;loki-架构&#34;&gt;Loki 架构&lt;/h2&gt;
 &lt;ul&gt;

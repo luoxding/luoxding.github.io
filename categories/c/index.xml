@@ -6,9 +6,9 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>c on 飞鸟的博客站</title>
-    <link>https://starifly.github.io/categories/c/</link>
-    <description>Recent content in c on 飞鸟的博客站</description>
+    <title>c on 布衣老罗的博客站</title>
+    <link>https://luoxding.github.io/categories/c/</link>
+    <description>Recent content in c on 布衣老罗的博客站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <managingEditor>efim@163.com (飞鸟)</managingEditor>
@@ -17,7 +17,7 @@
     <lastBuildDate>Sun, 02 Sep 2018 19:35:16 +0800</lastBuildDate>
     <sy:updatePeriod>daily</sy:updatePeriod>
     
-        <atom:link href="https://starifly.github.io/categories/c/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://luoxding.github.io/categories/c/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -26,11 +26,11 @@
       
       <item>
         <title>一个“蝇量级” C 语言协程库</title>
-        <link>https://starifly.github.io/posts/a-c-coroutine/</link>
+        <link>https://luoxding.github.io/posts/a-c-coroutine/</link>
         <pubDate>Sun, 02 Sep 2018 19:35:16 +0800</pubDate>
         <author>efim@163.com (飞鸟)</author>
         <atom:modified>Thu, 06 Sep 2018 00:00:00 +0000</atom:modified>
-        <guid>https://starifly.github.io/posts/a-c-coroutine/</guid>
+        <guid>https://luoxding.github.io/posts/a-c-coroutine/</guid>
         <description>本文为转载文章， 原文地址 https://coolshell.cn/articles/10975.html （感谢网友 @我的上铺叫路遥 投稿） 协程 (coroutine) 顾名思义就是“协作的例程”（co-operative routines）。跟具</description>
         <content:encoded>&lt;blockquote&gt;
 &lt;p&gt;本文为转载文章， 原文地址 
