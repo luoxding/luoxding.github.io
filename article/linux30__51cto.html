@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>提高Linux运维效率的30个命令行常用快捷键_每天进步一点的技术博客_51CTO博客 - 月月</title>
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">月月</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">提高Linux运维效率的30个命令行常用快捷键_每天进步一点的技术博客_51CTO博客</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1714212794510"
+                  >2024-04-27 18:13</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1714212794510"
+                  >2024-04-27 18:13</time
+                ></span
+              >
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><p>原文出处： <a title="http://blog.51cto.com/oldboy/2112948" href="http://blog.51cto.com/oldboy/2112948">http://blog.51cto.com/oldboy/2112948</a></p>
+<p>表4-1展示的是提高Linux运维效率的30个命令行常用快捷键，供读者享用。</p>
+<p>表4-1  30个常用快捷键</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>快捷键</td>
+<td>功能说明</td>
+</tr>
+<tr>
+<td>最有用快捷键</td>
+<td></td>
+</tr>
+<tr>
+<td>tab</td>
+<td>命令或路径等的补全键，Linux最有用快捷键*</td>
+</tr>
+<tr>
+<td>移动光标快捷键</td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl+a</td>
+<td>光标回到命令行首*</td>
+</tr>
+<tr>
+<td>Ctrl+e</td>
+<td>光标回到命令行尾*</td>
+</tr>
+<tr>
+<td>Ctrl+f</td>
+<td>光标向右移动一个字符（相当于方向键右键）</td>
+</tr>
+<tr>
+<td>Ctrl+b</td>
+<td>光标向左移动一个字符（相当于方向键左键）</td>
+</tr>
+<tr>
+<td>剪切、粘贴、清除快捷键</td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl+Insert</td>
+<td>复制命令行内容*</td>
+</tr>
+<tr>
+<td>Shift+Insert</td>
+<td>粘贴命令行内容*</td>
+</tr>
+<tr>
+<td>Ctrl+k</td>
+<td>剪切（删除）光标处到行尾的字符*</td>
+</tr>
+<tr>
+<td>Ctrl+u</td>
+<td>剪切（删除）光标处到行首的字符*</td>
+</tr>
+<tr>
+<td>Ctrl+w</td>
+<td>剪切（删除）光标前的一个单词</td>
+</tr>
+<tr>
+<td>Ctrl+y</td>
+<td>粘贴Ctrl+u，Ctrl+k，Ctrl+w删除的文本</td>
+</tr>
+<tr>
+<td>Ctrl+c</td>
+<td>中断终端正在执行的任务或者删除整行*</td>
+</tr>
+<tr>
+<td>Ctrl+h</td>
+<td>删除光标所在处的前一个字符（相当于退格键）</td>
+</tr>
+<tr>
+<td>重复执行命令快捷键</td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl+d</td>
+<td>退出当前Shell命令行*</td>
+</tr>
+<tr>
+<td>Ctrl+r</td>
+<td>搜索命令行使用过的历史命令记录*</td>
+</tr>
+<tr>
+<td>Ctrl+g</td>
+<td>从执行Ctrl+r的搜索历史命令模式退出</td>
+</tr>
+<tr>
+<td>Esc+.(点)</td>
+<td>获取上一条命令的最后的部分（空格分隔）*</td>
+</tr>
+<tr>
+<td>控制快捷键</td>
+<td></td>
+</tr>
+<tr>
+<td>Ctrl+l</td>
+<td>清除屏幕所有内容，并在屏幕最上面开始一个新行，等同clear命令*</td>
+</tr>
+<tr>
+<td>Ctrl+s</td>
+<td>锁定终端，使之无法输入内容</td>
+</tr>
+<tr>
+<td>Ctrl+q</td>
+<td>解锁执行Ctrl+s的锁定状态</td>
+</tr>
+<tr>
+<td>Ctrl+z</td>
+<td>暂停执行在终端运行的任务*</td>
+</tr>
+<tr>
+<td>!号开头的快捷命令</td>
+<td></td>
+</tr>
+<tr>
+<td>!!</td>
+<td>执行上一条命令</td>
+</tr>
+<tr>
+<td>!pw</td>
+<td>执行最近以pw开头的命令*</td>
+</tr>
+<tr>
+<td>!pw:p</td>
+<td>仅打印最近pw开头的命令，但不执行</td>
+</tr>
+<tr>
+<td>!num</td>
+<td>执行历史命令列表的第num(数字)条命令*</td>
+</tr>
+<tr>
+<td>!$</td>
+<td>上一条命令的最后一个参数，相当于Esc+.(点)</td>
+</tr>
+<tr>
+<td>ESC相关</td>
+<td></td>
+</tr>
+<tr>
+<td>Esc+.(点)</td>
+<td>获取上一条命令的最后的部分（空格分隔）*</td>
+</tr>
+<tr>
+<td>Esc+b</td>
+<td>移动到当前单词的开头</td>
+</tr>
+<tr>
+<td>Esc+f</td>
+<td>移动到当前单词的结尾</td>
+</tr>
+<tr>
+<td>Esc+t</td>
+<td>颠倒光标所在处及其相邻单词的位置</td>
+</tr>
+</tbody>
+</table>
+<p> 注：上述快捷键适合SecureCRT和Xshell客户端。其中带有符号“*”的为常用快捷键。</p>
+<p>内容来自老男孩2018年7月出版新书《跟老男孩学Linux运维：核心系统基础实践》第4章 ，敬请期待。</p>
+<ul>
+<li>
+<p>**</p>
+<p>赞**</p>
+</li>
+<li>
+<p>**</p>
+<p><strong>1</strong>收藏**</p>
+</li>
+<li>
+<p>**</p>
+<p>评论**</p>
+</li>
+<li>
+<p>**</p>
+<p>举报**</p>
+</li>
+</ul>
+<p><strong>相关文章</strong></p>
+</div>
+      </article>
+    </div>
+  </body>
+</html>

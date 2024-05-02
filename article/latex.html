@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="/_assets/main.css" />
+
+    <title>中文Latex图书模板 - 月月</title>
+  <link rel="stylesheet" href="/_markdown_plugin_assets/highlight.js/atom-one-light.css" /></head>
+  <body>
+    <div class="main">
+      <nav class="navigation">
+        <a href="/">月月</a>
+      </nav>
+      <article>
+        <header>
+          <h1 class="article-title">中文Latex图书模板</h1>
+          <div class="article-info">
+            <div>
+              <span
+                >Created At：<time datetime="1713716805584"
+                  >2024-04-22 00:26</time
+                ></span
+              >
+              <span
+                >Updated At：<time datetime="1713788764794"
+                  >2024-04-22 20:26</time
+                ></span
+              >
+            </div>
+            
+          </div>
+        </header>
+        <div class="article-content markdown-body"><h1 id="中文latex图书模板">中文Latex图书模板</h1>
+<p>用Latex编写中文书是让人头疼的，如果不是需要输入很多公式，很多人是不愿意用latex排版中文书的。</p>
+<p>在ctex宏包发布之前， latex系统对中文排版的支持一直不太理想。虽然用CJK能让中文正常显示，但是一些排版细节， 如章节号、行距、字体选择、缩进等都需要写很多命令重新定义。ctex宏包较好地解决了这个问题。</p>
+<p>这里给出一个latex中文图书模板。 该模板主要包括：</p>
+<ol>
+<li>扉页</li>
+<li>序言</li>
+<li>前言</li>
+<li>目录</li>
+<li>部分</li>
+<li>章</li>
+<li>章以下标题</li>
+<li>分栏模式</li>
+<li>include包含其他tex文档</li>
+<li>标题名称转换</li>
+<li>标题部分加入目录</li>
+<li>自动生成索引</li>
+<li>参考文献（待完善）</li>
+<li>生成目录、索引以及参考文献的超链接</li>
+<li>后记</li>
+</ol>
+<p>编译的方法是： 将代码部分保存到文本文件中， 用UTF-8编码。 之后用XeLaTeX编译即可生成pdf文档。 虽然生成的图书效果值得商榷， 但是相信编译为书稿后， 再交给专业排版人员， 一定能省很多事。</p>
+<p>利用这个模板，编写植物名录、植物图集等会容易很多。可以借助其他脚本语言如Python或者R处理相应的数据库，生成tex代码用包含命令\include{}之后，再编译即可。</p>
+<div><pre class="hljs"><code><span class="hljs-keyword">\documentclass</span>[utf8]{book}
+<span class="hljs-keyword">\usepackage</span>{titletoc}
+<span class="hljs-keyword">\usepackage</span>{titlesec}
+<span class="hljs-keyword">\usepackage</span>{ctexcap}
+<span class="hljs-keyword">\usepackage</span>[b5paper,text={125mm,195mm},centering,left=1in,right=1in,top=1in,bottom=1in]{geometry}
+<span class="hljs-keyword">\usepackage</span>[]{geometry}
+<span class="hljs-keyword">\usepackage</span>{imakeidx}
+<span class="hljs-keyword">\usepackage</span>{multicol}
+<span class="hljs-keyword">\usepackage</span>{hyperref}
+<span class="hljs-keyword">\makeindex</span>
+<span class="hljs-keyword">\bibliographystyle</span>{plain}
+<span class="hljs-keyword">\begin</span>{document}
+<span class="hljs-keyword">\title</span>{<span class="hljs-keyword">\heiti</span> 中国植物多样性地理图集}
+<span class="hljs-keyword">\author</span>{<span class="hljs-keyword">\fangsong</span> 中国科学院植物研究所 编著}
+<span class="hljs-keyword">\date</span>{2018年1月}
+
+<span class="hljs-keyword">\frontmatter</span>
+<span class="hljs-keyword">\maketitle</span>
+
+<span class="hljs-keyword">\chapter</span>{序 I}
+
+这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言
+
+<span class="hljs-keyword">\chapter</span>{序 II}
+
+这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分是序言这部分
+
+<span class="hljs-keyword">\chapter</span>{前~言}
+
+这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分是前言这部分
+
+这部分是前言
+
+<span class="hljs-keyword">\renewcommand</span><span class="hljs-keyword">\contentsname</span>{目~录}
+<span class="hljs-keyword">\tableofcontents</span>
+
+<span class="hljs-keyword">\mainmatter</span>
+
+<span class="hljs-keyword">\part</span>{总论}
+
+<span class="hljs-keyword">\chapter</span>{中国植物调查的历史}
+
+<span class="hljs-keyword">\section</span>{一级节标题}
+
+<span class="hljs-keyword">\subsection</span>{二级节标题}
+
+<span class="hljs-keyword">\subsubsection</span>{三级节标题}
+
+<span class="hljs-keyword">\begin</span>{multicols}{2}
+
+清朝中期， 外国人就开始中国采集植物标本。清朝中期， 外国人就开始中国采集植物标本。清朝中期， 外国人就开始中国采集植物标本。清朝中期， 外国人就开始中国采集植物标本。清朝中期， 外国人就开始中国采集植物标本。清朝中期， 外国人就开始中国采集植物标本。
+
+<span class="hljs-keyword">\end</span>{multicols}
+
+<span class="hljs-keyword">\chapter</span>{植物区系分区}
+
+<span class="hljs-keyword">\section</span>{一级节标题}
+
+<span class="hljs-keyword">\subsection</span>{二级节标题}
+
+<span class="hljs-keyword">\subsubsection</span>{三级节标题}
+
+<span class="hljs-keyword">\begin</span>{multicols}{2}
+和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集植物<span class="hljs-keyword">\index</span>{调查}和标本采集植物调查和标本采集植物调查和标本采集植物调查和标本采集
+
+<span class="hljs-keyword">\end</span>{multicols}
+
+<span class="hljs-keyword">\part</span>{植物多样性分区概述}
+
+<span class="hljs-keyword">\chapter</span>{东北地区}
+
+<span class="hljs-keyword">\begin</span>{multicols}{2}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <span class="hljs-keyword">\index</span>{reprehenderit} in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<span class="hljs-keyword">\end</span>{multicols}
+
+<span class="hljs-keyword">\chapter</span>{华北地区}
+<span class="hljs-keyword">\begin</span>{multicols}{2}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<span class="hljs-keyword">\end</span>{multicols}
+
+<span class="hljs-keyword">\include</span>{angiosperms}
+
+<span class="hljs-keyword">\appendix</span>
+
+<span class="hljs-keyword">\chapter</span>{APG分类系统的科名}
+
+内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容文内容正文内容正文内容正文<span class="hljs-keyword">\index</span>{内容}
+
+内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容附录内容正文内容正文<span class="hljs-keyword">\cite</span>{DK1}.
+
+<span class="hljs-keyword">\renewcommand</span><span class="hljs-keyword">\indexname</span>{索~~引}
+<span class="hljs-keyword">\printindex</span>
+<span class="hljs-keyword">\addcontentsline</span>{toc}{chapter}{索~引}
+
+<span class="hljs-keyword">\backmatter</span>
+
+<span class="hljs-keyword">\addcontentsline</span>{toc}{chapter}{参考文献}
+
+<span class="hljs-keyword">\begin</span>{thebibliography}{参考文献}
+<span class="hljs-keyword">\bibitem</span>[Knuth1 et al. 1997]{DK1} D. Knuth, T.A.O.C.P. , Vol. 1, Addison-Wesley, 1997.
+<span class="hljs-keyword">\bibitem</span>[Knuth2]{DK2} D. Knuth, T.A.O.C.P. , Vol. 2, Addison-Wesley, 1997.
+<span class="hljs-keyword">\bibitem</span>[TONG YH 2014]{TONG} TONG YH, PANG KS, XIAN NH, 2014. Carpinus insularis (Betulaceae), A new species from Hong Kong [J]. J Trop Subtrop Bot, 22(2): 121-124. [童毅华， 彭权森， 夏念和，2014. 香港桦木科一新种——香港鹅耳枥 [J]. 热带亚热带植物学报，22(2):121-124.]
+<span class="hljs-keyword">\bibitem</span>[XIA NH 2008]{XIA} XIA NH, DENG YF, YIP KL, 2008. Syzygium impressum (Myrtaceae), A new species from Hong Kong [J]. J Trop Subtrop Bot, 16(1):19-22. [夏念和，邓云飞，叶国梁，2008. 香港桃金娘科一新种-凹脉赤楠 [J].热带亚热带植物学报，16(1):19-22.]
+<span class="hljs-keyword">\end</span>{thebibliography}
+
+<span class="hljs-keyword">\chapter</span>{后~~记}
+
+后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容后记内容
+
+<span class="hljs-keyword">\begin</span>{flushright}
+作~~者~~~~~~~~~
+
+2018年1月~~~~~
+<span class="hljs-keyword">\end</span>{flushright}
+
+<span class="hljs-keyword">\end</span>{document}</code></pre></div>
+</div>
+      </article>
+    </div>
+  </body>
+</html>
