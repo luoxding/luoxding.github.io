@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>代理 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E4%BB%A3%E7%90%86/</link>
+    <description>Recent content in 代理 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 11 Jul 2022 18:52:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%BB%A3%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker 基本操作及代理设置</title>
+      <link>http://localhost:1313/docker-proxy-configure/</link>
+      <pubDate>Mon, 11 Jul 2022 18:52:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/docker-proxy-configure/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何在 Docker 中设置代理加速访问，以及一些基本操作和常用镜像的使用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Clash for Windows 启用 TUN 模式</title>
+      <link>http://localhost:1313/cfw-tun-system/</link>
+      <pubDate>Wed, 23 Feb 2022 21:10:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/cfw-tun-system/</guid>
+      <description>&lt;p&gt;Clash for Windows（下简称 CFW）是一个常用的跨平台的代理软件。其 TUN 模式就类似于 VPN，通过创建一个虚拟网卡的方式来对流量实现更为彻底的代理。对于不遵循系统代理的软件，TUN 模式可以接管其流量并交由 CFW 处理。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows 11 系统启用 WSL 2 并安装 Docker</title>
+      <link>http://localhost:1313/wsl2-docker-instruction/</link>
+      <pubDate>Tue, 09 Nov 2021 18:04:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/wsl2-docker-instruction/</guid>
+      <description>&lt;p&gt;本文主要介绍了在 Win11 系统上启用 WSL 2，完成基本配置并安装 Docker 的过程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用软件设置代理及换源教程</title>
+      <link>http://localhost:1313/software-set-proxy-mirror/</link>
+      <pubDate>Mon, 13 Sep 2021 20:11:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/software-set-proxy-mirror/</guid>
+      <description>&lt;p&gt;本文主要介绍一些常用软件的设置网络代理或者更换软件镜像源的方式。本文包括以下软件的设置：shell, git, apt, conda, maven, gradle, npm, yarn 以及 docker。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

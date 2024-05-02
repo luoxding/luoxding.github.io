@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>系统设置 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</link>
+    <description>Recent content in 系统设置 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 29 Jan 2023 21:37:42 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>公共 DNS 推荐</title>
+      <link>http://localhost:1313/public-dns/</link>
+      <pubDate>Sun, 29 Jan 2023 21:37:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/public-dns/</guid>
+      <description>&lt;p&gt;本文记录了一些常见的公共 DNS，包括 DoH 以及 IPv6 DNS。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用软件设置代理及换源教程</title>
+      <link>http://localhost:1313/software-set-proxy-mirror/</link>
+      <pubDate>Mon, 13 Sep 2021 20:11:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/software-set-proxy-mirror/</guid>
+      <description>&lt;p&gt;本文主要介绍一些常用软件的设置网络代理或者更换软件镜像源的方式。本文包括以下软件的设置：shell, git, apt, conda, maven, gradle, npm, yarn 以及 docker。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

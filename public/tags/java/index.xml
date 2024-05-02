@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/java/</link>
+    <description>Recent content in Java on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次内存溢出问题排查</title>
+      <link>http://localhost:1313/%E4%B8%80%E6%AC%A1%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/%E4%B8%80%E6%AC%A1%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</guid>
+      <description>分析问题不能草率，应有理有据</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot 全局异常捕获处理</title>
+      <link>http://localhost:1313/spring-exception-handle/</link>
+      <pubDate>Mon, 27 Dec 2021 17:24:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/spring-exception-handle/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何实现 Spring Boot 项目的全局异常捕获并处理。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

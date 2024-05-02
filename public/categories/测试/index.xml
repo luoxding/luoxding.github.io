@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>测试 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E6%B5%8B%E8%AF%95/</link>
+    <description>Recent content in 测试 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 02 May 2024 22:34:58 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>格式与元素测试</title>
+      <link>http://localhost:1313/abouta/</link>
+      <pubDate>Thu, 02 May 2024 22:34:58 +0800</pubDate>
+      
+      <guid>http://localhost:1313/abouta/</guid>
+      <description>&lt;p&gt;后来纸媒衰落，有人借助积累的资源，出来创业；有人凭借出色能力，跳到大公司。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

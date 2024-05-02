@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>分类 🗃️ on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in 分类 🗃️ on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 02 May 2024 22:34:58 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试</title>
+      <link>http://localhost:1313/categories/%E6%B5%8B%E8%AF%95/</link>
+      <pubDate>Thu, 02 May 2024 22:34:58 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E6%B5%8B%E8%AF%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/categories/hugo/</link>
+      <pubDate>Thu, 02 May 2024 18:07:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>http://localhost:1313/categories/development/</link>
+      <pubDate>Sat, 09 Dec 2023 12:59:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VIM</title>
+      <link>http://localhost:1313/categories/vim/</link>
+      <pubDate>Sat, 09 Dec 2023 12:59:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>互联网</title>
+      <link>http://localhost:1313/categories/%E4%BA%92%E8%81%94%E7%BD%91/</link>
+      <pubDate>Fri, 17 Nov 2023 21:20:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E4%BA%92%E8%81%94%E7%BD%91/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/categories/blog/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>人工智能</title>
+      <link>http://localhost:1313/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+      <pubDate>Sat, 15 Jul 2023 17:44:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/categories/windows/</link>
+      <pubDate>Tue, 20 Jun 2023 23:04:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>前端</title>
+      <link>http://localhost:1313/categories/%E5%89%8D%E7%AB%AF/</link>
+      <pubDate>Tue, 16 May 2023 17:12:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%89%8D%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>编程语言</title>
+      <link>http://localhost:1313/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
+      <pubDate>Tue, 28 Mar 2023 23:05:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>系统设置</title>
+      <link>http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Sun, 29 Jan 2023 21:37:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E7%BD%AE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>后端</title>
+      <link>http://localhost:1313/categories/%E5%90%8E%E7%AB%AF/</link>
+      <pubDate>Tue, 13 Dec 2022 21:58:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%90%8E%E7%AB%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/categories/linux/</link>
+      <pubDate>Mon, 17 Oct 2022 19:21:35 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>计算机基础</title>
+      <link>http://localhost:1313/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 07 Feb 2022 21:58:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

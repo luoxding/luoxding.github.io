@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/categories/java/</link>
+    <description>Recent content in Java on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 11 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一次内存溢出问题排查</title>
+      <link>http://localhost:1313/%E4%B8%80%E6%AC%A1%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/%E4%B8%80%E6%AC%A1%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</guid>
+      <description>分析问题不能草率，应有理有据</description>
+    </item>
+    
+  </channel>
+</rss>

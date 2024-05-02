@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/git/</link>
+    <description>Recent content in Git on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 22 Apr 2022 21:21:40 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git 保存用户凭据</title>
+      <link>http://localhost:1313/git-save-credential/</link>
+      <pubDate>Fri, 22 Apr 2022 21:21:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-save-credential/</guid>
+      <description>&lt;p&gt;本文介绍了如何在 Linux 下保存 Git 的用户凭据。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git commit 信息规范</title>
+      <link>http://localhost:1313/git-commit-specification/</link>
+      <pubDate>Tue, 15 Mar 2022 19:04:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-commit-specification/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Git commit 信息的一些规范。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git 使用教程（下）</title>
+      <link>http://localhost:1313/git-instruction-2/</link>
+      <pubDate>Mon, 25 Oct 2021 21:31:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-instruction-2/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Git 的一些进阶操作，包括分离 HEAD，相对引用，cherry-pick，交互式 rebase 和 tag 等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git 使用教程（上）</title>
+      <link>http://localhost:1313/git-instruction-1/</link>
+      <pubDate>Fri, 22 Oct 2021 21:31:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-instruction-1/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Git 本地和远程的一些常用操作，包括 commit，branch，merge，rebase，fetch 和 push 等。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

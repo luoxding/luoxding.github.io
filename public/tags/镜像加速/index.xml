@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>镜像加速 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F/</link>
+    <description>Recent content in 镜像加速 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 03 Jun 2022 19:20:44 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 Gradle 项目中使用阿里云 Maven 仓库</title>
+      <link>http://localhost:1313/gradle-aliyun-maven/</link>
+      <pubDate>Fri, 03 Jun 2022 19:20:44 +0800</pubDate>
+      
+      <guid>http://localhost:1313/gradle-aliyun-maven/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何在 Kotlin 的 Gradle 项目中使用阿里云的 Maven 仓库加速。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用软件设置代理及换源教程</title>
+      <link>http://localhost:1313/software-set-proxy-mirror/</link>
+      <pubDate>Mon, 13 Sep 2021 20:11:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/software-set-proxy-mirror/</guid>
+      <description>&lt;p&gt;本文主要介绍一些常用软件的设置网络代理或者更换软件镜像源的方式。本文包括以下软件的设置：shell, git, apt, conda, maven, gradle, npm, yarn 以及 docker。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

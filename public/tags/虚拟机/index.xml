@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>虚拟机 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+    <description>Recent content in 虚拟机 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 20 Jun 2023 23:04:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware 虚拟机大小核调度问题</title>
+      <link>http://localhost:1313/vmware-p-core/</link>
+      <pubDate>Tue, 20 Jun 2023 23:04:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/vmware-p-core/</guid>
+      <description>&lt;p&gt;众所周知，Intel 自 12 代处理器就开始使用大小核架构，把核心分为 P-Core 和 E-Core，即我们所说的大核和小核。Microsoft 声称在 Windows 11 系统上对大小核架构进行了优化。不过，在有些场景下大小核的调度仍不尽如人意，比如本文所探讨的 VMware 虚拟机场景。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

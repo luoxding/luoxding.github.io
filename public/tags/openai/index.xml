@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenAI on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/openai/</link>
+    <description>Recent content in OpenAI on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 17 Nov 2023 21:20:34 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clash for Windows OpenAI 分流</title>
+      <link>http://localhost:1313/clash-openai/</link>
+      <pubDate>Fri, 17 Nov 2023 21:20:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/clash-openai/</guid>
+      <description>&lt;p&gt;总所周知，OpenAI 对于访问 IP 的要求较为严格，因此我们最好使用较为固定的美国 IP 进行访问。如果我们所使用的分流规则中没有相应的规则的话，我们每次访问 ChatGPT 时都需要手动切换节点，非常的麻烦。那么有没有什么简单的方法来添加 Clash 的分流规则呢？当然有，那就是 Clash for Windows 的 Parsers 功能。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 02 May 2024 22:34:58 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>格式与元素测试</title>
+      <link>http://localhost:1313/abouta/</link>
+      <pubDate>Thu, 02 May 2024 22:34:58 +0800</pubDate>
+      
+      <guid>http://localhost:1313/abouta/</guid>
+      <description>&lt;p&gt;后来纸媒衰落，有人借助积累的资源，出来创业；有人凭借出色能力，跳到大公司。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>创建hugo文章带日期</title>
+      <link>http://localhost:1313/newdemo/</link>
+      <pubDate>Thu, 02 May 2024 18:07:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/newdemo/</guid>
+      <description>&lt;p&gt;因为愚蠢，会坚信自己的想法才是对的；因为贪婪，永远想要更多。为了满足私欲，不惜伤害任何人，包括帮助自己的人。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一次内存溢出问题排查</title>
+      <link>http://localhost:1313/%E4%B8%80%E6%AC%A1%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</link>
+      <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/%E4%B8%80%E6%AC%A1%E5%86%85%E5%AD%98%E6%BA%A2%E5%87%BA%E9%97%AE%E9%A2%98%E6%8E%92%E6%9F%A5/</guid>
+      <description>分析问题不能草率，应有理有据</description>
+    </item>
+    
+    <item>
+      <title>Linux Note</title>
+      <link>http://localhost:1313/linux-note/</link>
+      <pubDate>Sat, 09 Dec 2023 12:59:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/linux-note/</guid>
+      <description>标题 docker-compose教程（安装，使用, 快速入门）
+curl -L https://get.daocloud.io/docker/compose/releases/download/1.25.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose </description>
+    </item>
+    
+    <item>
+      <title>Latex Note</title>
+      <link>http://localhost:1313/latex-note/</link>
+      <pubDate>Sat, 09 Dec 2023 12:51:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/latex-note/</guid>
+      <description>Latex 制作表格 前言 提示：这里可以添加本文要记录的大概内容：
+Latex 表格代码汇总，包括三线表[跨页]、简单表[表格基本配置（表名、表宽、注解、字号）]、单元格合并、斜线表头、
+提示：以下是本篇文章正文内容，下面案例可供参考
+一、Latex三线表 1、普通三线表 三线表需要一个专门的宏包==booktabs==。通过该宏包，可以使用以下代码画不同粗细的表线。
+代码 含义 \toprule 顶部粗线 \midrule 中间细线 \bottomrule 底部粗线 示例代码：
+\documentclass{article} \usepackage{booktabs} % 导入三线表需要的宏包 \begin{document} \begin{tabular}{ccc}% 其中，tabular是表格内容的环境；c表示centering，即文本格式居中；c的个数代表列的个数 \toprule %[2pt]设置线宽 a &amp;amp; b &amp;amp; c \\ %换行 \midrule %[2pt] 1 &amp;amp; 2 &amp;amp; 3 \\ 4 &amp;amp; 5 &amp;amp; 6 \\ 7 &amp;amp; 8 &amp;amp; 9 \\ \bottomrule %[2pt] \end{tabular} \end{document} 代码结果图片：
+2、跨页三线表 跨页表格需要导入宏包 ==longtable==，并将原来的表格内容环境==tabular==改成==longtable==即可。
+示例代码：
+\documentclass{article} \usepackage{booktabs} % 导入三线表需要的宏包 \usepackage{longtable}% 导入跨页表格所需宏包 \begin{document} \begin{longtable}{ccc}% 其中，tabular是表格内容的环境；c表示centering，即文本格式居中；c的个数代表列的个数 \toprule %[2pt]设置线宽 a &amp;amp; b &amp;amp; c \\ %换行 \midrule %[2pt] 1 &amp;amp; 2 &amp;amp; 3 \\ 4 &amp;amp; 5 &amp;amp; 6 \\ 7 &amp;amp; 8 &amp;amp; 9 \\ \bottomrule %[2pt] \end{longtable} \end{document} 代码结果图片：</description>
+    </item>
+    
+    <item>
+      <title>Clash for Windows OpenAI 分流</title>
+      <link>http://localhost:1313/clash-openai/</link>
+      <pubDate>Fri, 17 Nov 2023 21:20:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/clash-openai/</guid>
+      <description>&lt;p&gt;总所周知，OpenAI 对于访问 IP 的要求较为严格，因此我们最好使用较为固定的美国 IP 进行访问。如果我们所使用的分流规则中没有相应的规则的话，我们每次访问 ChatGPT 时都需要手动切换节点，非常的麻烦。那么有没有什么简单的方法来添加 Clash 的分流规则呢？当然有，那就是 Clash for Windows 的 Parsers 功能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chat with LLMs from the command line</title>
+      <link>http://localhost:1313/manual/2023-09-26-llm-term/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/2023-09-26-llm-term/</guid>
+      <description>llm-term Chat with LLM models directly from the command line.
+Screen Recording Your browser does not support the video tag. Installation pipx install llm-term Usage Then, you can chat with the model directly from the command line:
+llm-term llm-term works with multiple LLM providers, but by default it uses OpenAI. Most providers require extra packages to be installed, so make sure you read the Providers section below. To use a different provider, you can set the --provider / -p flag:</description>
+    </item>
+    
+    <item>
+      <title>Chat with LLMs from the command line</title>
+      <link>http://localhost:1313/manual/linux/2023-09-26-llm-term/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/linux/2023-09-26-llm-term/</guid>
+      <description>llm-term Chat with LLM models directly from the command line.
+Screen Recording Your browser does not support the video tag. Installation pipx install llm-term Usage Then, you can chat with the model directly from the command line:
+llm-term llm-term works with multiple LLM providers, but by default it uses OpenAI. Most providers require extra packages to be installed, so make sure you read the Providers section below. To use a different provider, you can set the --provider / -p flag:</description>
+    </item>
+    
+    <item>
+      <title>API starterpack with zoo</title>
+      <link>http://localhost:1313/manual/linux/2023-08-23-zoo/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/linux/2023-08-23-zoo/</guid>
+      <description>zoo The zoo project 🦁🐼🐨, an asynchronous zoo API powered by FastAPI, SQLAlchemy 2.0, Pydantic v2, and Alembic. zoo is a simple yet robust API example that allows you to manage a zoo. It utilizes modern tools and practices, including a production-ready server (Uvicorn), modern SQL ORM (SQLAlchemy 2.0), data validation (Pydantic v2), and database migrations (Alembic). This project serves as an excellent starting point for building your own API, outlining the basic structure of an API project and providing examples of implementing common features.</description>
+    </item>
+    
+    <item>
+      <title>Pytorch Tensor 基本操作</title>
+      <link>http://localhost:1313/pytorch-tensor/</link>
+      <pubDate>Sat, 15 Jul 2023 17:44:51 +0800</pubDate>
+      
+      <guid>http://localhost:1313/pytorch-tensor/</guid>
+      <description>&lt;p&gt;本文介绍了 PyTorch 中 Tensor 的一些常用操作。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>VMware 虚拟机大小核调度问题</title>
+      <link>http://localhost:1313/vmware-p-core/</link>
+      <pubDate>Tue, 20 Jun 2023 23:04:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/vmware-p-core/</guid>
+      <description>&lt;p&gt;众所周知，Intel 自 12 代处理器就开始使用大小核架构，把核心分为 P-Core 和 E-Core，即我们所说的大核和小核。Microsoft 声称在 Windows 11 系统上对大小核架构进行了优化。不过，在有些场景下大小核的调度仍不尽如人意，比如本文所探讨的 VMware 虚拟机场景。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ESLint 配置文件报错 Module 未定义</title>
+      <link>http://localhost:1313/eslint-module-not-define/</link>
+      <pubDate>Tue, 16 May 2023 17:12:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/eslint-module-not-define/</guid>
+      <description>&lt;p&gt;使用 vite 新建了一个 react 的项目，通过 vscode 打开，发现 &lt;code&gt;.eslintrc.cjs&lt;/code&gt; 文件报错：&amp;quot;&amp;lsquo;module&amp;rsquo; is not defined&amp;quot;。经过查阅资料，发现原来是 vscode 的问题。ESLint 本来应该忽略以 &lt;code&gt;.&lt;/code&gt; 开头的文件，但在 vscode 中没有生效。解决方案就是在 &lt;code&gt;.eslintrc.cjs&lt;/code&gt; 文件中添加 node 环境。就像这样：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows 批量修改文件名</title>
+      <link>http://localhost:1313/windows-batch-rename/</link>
+      <pubDate>Tue, 11 Apr 2023 17:39:09 +0800</pubDate>
+      
+      <guid>http://localhost:1313/windows-batch-rename/</guid>
+      <description>&lt;p&gt;本文介绍了两种在 Windows 系统中批量重命名文件的方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43; Clang Format 设置</title>
+      <link>http://localhost:1313/clang-format/</link>
+      <pubDate>Tue, 28 Mar 2023 23:05:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/clang-format/</guid>
+      <description>&lt;p&gt;本文介绍了如何使用 Clang Format 来格式化 C++ 代码。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>C 语言字符串操作</title>
+      <link>http://localhost:1313/c-string/</link>
+      <pubDate>Tue, 14 Feb 2023 23:24:15 +0800</pubDate>
+      
+      <guid>http://localhost:1313/c-string/</guid>
+      <description>&lt;p&gt;在 C 语言中，字符串实际上是使用空字符 \0 结尾的一维字符数组。C 标准库提供了一系列对于字符串的操作，大多定义在头文件 &amp;lt;string.h&amp;gt; 中。本文对一些常用的字符串操作进行记录。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>公共 DNS 推荐</title>
+      <link>http://localhost:1313/public-dns/</link>
+      <pubDate>Sun, 29 Jan 2023 21:37:42 +0800</pubDate>
+      
+      <guid>http://localhost:1313/public-dns/</guid>
+      <description>&lt;p&gt;本文记录了一些常见的公共 DNS，包括 DoH 以及 IPv6 DNS。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在 WSL2 中启用 Systemd</title>
+      <link>http://localhost:1313/wsl2-systemd/</link>
+      <pubDate>Thu, 12 Jan 2023 19:50:21 +0800</pubDate>
+      
+      <guid>http://localhost:1313/wsl2-systemd/</guid>
+      <description>&lt;p&gt;适用于 Linux 的 Windows 子系统，即 WSL，为使用 Windows 系统的程序员提供了一个便利的 GNU/Linux 环境。不过之前由于 WSL2 并不支持 systemd，所以当我们需要在 WSL 中起一些服务时就很不方便。好在现在 WSL2 已经原生支持了 systemd，本文就对如何安装 WSL2 和启用 systemd 进行简要的介绍。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JWT 登录简介</title>
+      <link>http://localhost:1313/introduction-to-jwt/</link>
+      <pubDate>Tue, 13 Dec 2022 21:58:17 +0800</pubDate>
+      
+      <guid>http://localhost:1313/introduction-to-jwt/</guid>
+      <description>&lt;p&gt;JSON Web Token（简写为 JWT）是目前最流行的跨域认证解决方案。本文简要介绍了它的原理和用法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Data JPA 介绍</title>
+      <link>http://localhost:1313/spring-data-jpa-relationship/</link>
+      <pubDate>Sun, 27 Nov 2022 12:16:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/spring-data-jpa-relationship/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Kotlin 如何使用 Spring Data JPA 来操作 PostgreSQL 数据库。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用 archinstall 便捷安装 Arch Linux</title>
+      <link>http://localhost:1313/install-archlinux-using-archinstall/</link>
+      <pubDate>Mon, 17 Oct 2022 19:21:35 +0800</pubDate>
+      
+      <guid>http://localhost:1313/install-archlinux-using-archinstall/</guid>
+      <description>&lt;p&gt;Arch Linux 是一个著名的滚动更新（Rolling update）的 Linux 发行版。与常用的 Ubuntu 等发行版相比，Arch Linux 有着更新的软件包，并且由于滚动更新的缘故，Arch Linux 也避免了 Ubuntu 在大版本更新时（如 20.04 LTS 到 22.04 LTS）由于软件包版本差异过大而可能遇到的困难。不过，当很多新人打算尝试 Arch Linux 的时候，却直接被 Arch Linux 复杂的安装过程而劝退。不过，随着官方系统镜像集成了 archinstall，Arch Linux 的安装也成为了一件简单的事情。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JavaScript 高阶函数介绍</title>
+      <link>http://localhost:1313/javascript-functional-programming/</link>
+      <pubDate>Mon, 12 Sep 2022 18:50:02 +0800</pubDate>
+      
+      <guid>http://localhost:1313/javascript-functional-programming/</guid>
+      <description>&lt;p&gt;高阶函数，就是以函数作为参数或是返回值的函数，是函数式编程的基本思想之一，在众多编程语言中都有实现。本文以 JavaScript 语言为例介绍了对于数组的一系列高阶函数，包括 map, reduce, filter, sort 等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot 前后端分离项目部署</title>
+      <link>http://localhost:1313/spring-boot-deployment/</link>
+      <pubDate>Sat, 20 Aug 2022 20:53:22 +0800</pubDate>
+      
+      <guid>http://localhost:1313/spring-boot-deployment/</guid>
+      <description>&lt;p&gt;本文介绍了如何部署后端 Spring Boot 前端 React 的前后端分离项目。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chrome 扩展 Vimium C 介绍</title>
+      <link>http://localhost:1313/chrome-vimium-c/</link>
+      <pubDate>Sun, 24 Jul 2022 21:36:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/chrome-vimium-c/</guid>
+      <description>&lt;p&gt;本文介绍了 Chrome 中的一个类 Vim 按键扩展 Vimium C 的基本使用方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker 基本操作及代理设置</title>
+      <link>http://localhost:1313/docker-proxy-configure/</link>
+      <pubDate>Mon, 11 Jul 2022 18:52:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/docker-proxy-configure/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何在 Docker 中设置代理加速访问，以及一些基本操作和常用镜像的使用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arch Linux 安装 PostgreSQL 数据库</title>
+      <link>http://localhost:1313/archlinux-install-postgresql/</link>
+      <pubDate>Wed, 22 Jun 2022 15:47:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/archlinux-install-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL 是一个强大的、开源的对象关系型数据库系统，经过 30 多年的积极开发，它在可靠性、功能稳健性和性能方面赢得了良好的声誉。本文记录了如何在 Arch Linux 上安装并配置 PostgreSQL 数据库。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在 Gradle 项目中使用阿里云 Maven 仓库</title>
+      <link>http://localhost:1313/gradle-aliyun-maven/</link>
+      <pubDate>Fri, 03 Jun 2022 19:20:44 +0800</pubDate>
+      
+      <guid>http://localhost:1313/gradle-aliyun-maven/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何在 Kotlin 的 Gradle 项目中使用阿里云的 Maven 仓库加速。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决前端 Vite 和后端 Spring 跨域问题</title>
+      <link>http://localhost:1313/vite-spring-cross-origin/</link>
+      <pubDate>Wed, 25 May 2022 12:09:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/vite-spring-cross-origin/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何解决前后端分离项目（前端：React + Vite，后端 Kotlin + Spring Security）的跨域问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Let&#39;s talk about camply</title>
+      <link>http://localhost:1313/manual/latex/2022-05-03-lets-talk-about-camply/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/latex/2022-05-03-lets-talk-about-camply/</guid>
+      <description>If you don&amp;rsquo;t already know, camply is an open-source Python project that I created a little while ago that helps people to find and snag last minute cancellations at campgrounds all around the USA.
+I got the idea for camply when my partner and I took a road trip last summer. When we started planning campgrounds to stay at inside of National Parks during our trip, we quickly discovered that campsites at busy destinations like Yellowstone and Glacier are a hot commodity and totally booked out.</description>
+    </item>
+    
+    <item>
+      <title>Git 保存用户凭据</title>
+      <link>http://localhost:1313/git-save-credential/</link>
+      <pubDate>Fri, 22 Apr 2022 21:21:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-save-credential/</guid>
+      <description>&lt;p&gt;本文介绍了如何在 Linux 下保存 Git 的用户凭据。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git commit 信息规范</title>
+      <link>http://localhost:1313/git-commit-specification/</link>
+      <pubDate>Tue, 15 Mar 2022 19:04:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-commit-specification/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Git commit 信息的一些规范。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Clash for Windows 启用 TUN 模式</title>
+      <link>http://localhost:1313/cfw-tun-system/</link>
+      <pubDate>Wed, 23 Feb 2022 21:10:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/cfw-tun-system/</guid>
+      <description>&lt;p&gt;Clash for Windows（下简称 CFW）是一个常用的跨平台的代理软件。其 TUN 模式就类似于 VPN，通过创建一个虚拟网卡的方式来对流量实现更为彻底的代理。对于不遵循系统代理的软件，TUN 模式可以接管其流量并交由 CFW 处理。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在 Hugo 中使用短代码</title>
+      <link>http://localhost:1313/hugo-shortcodes/</link>
+      <pubDate>Fri, 18 Feb 2022 22:17:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hugo-shortcodes/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Hugo 中的短代码 Shortcodes。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>I guess I have a blog now</title>
+      <link>http://localhost:1313/manual/latex/2022-02-08-welcome/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/latex/2022-02-08-welcome/</guid>
+      <description>When I was setting up my portfolio site I realized that it also has some pretty nifty blogging capabilities too. Well&amp;hellip; I guess I have a blog now.
+I&amp;rsquo;m not typically one to channel my energy through writing so I don&amp;rsquo;t expect to be extremely active on here but it&amp;rsquo;s nice to have a venue where I can record my thoughts from time to time.
+In the meantime I&amp;rsquo;ll begin to work on putting together some more content to showcase some of my open source work.</description>
+    </item>
+    
+    <item>
+      <title>数据库设计常见范式介绍</title>
+      <link>http://localhost:1313/database-normal-forms/</link>
+      <pubDate>Mon, 07 Feb 2022 21:58:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/database-normal-forms/</guid>
+      <description>&lt;p&gt;本文主要介绍了在数据库设计中常见的三大范式及 BC 范式。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>正则表达式教程</title>
+      <link>http://localhost:1313/regex-instruction/</link>
+      <pubDate>Sun, 23 Jan 2022 14:39:41 +0800</pubDate>
+      
+      <guid>http://localhost:1313/regex-instruction/</guid>
+      <description>&lt;p&gt;本文主要介绍了正则表达式的一些基本用法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows 和 Linux 双系统时间不一致的问题</title>
+      <link>http://localhost:1313/dual-system-time-difference/</link>
+      <pubDate>Wed, 12 Jan 2022 16:39:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/dual-system-time-difference/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何解决 Windows 和 Linux 双系统时间不一致的问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spring Boot 全局异常捕获处理</title>
+      <link>http://localhost:1313/spring-exception-handle/</link>
+      <pubDate>Mon, 27 Dec 2021 17:24:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/spring-exception-handle/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何实现 Spring Boot 项目的全局异常捕获并处理。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PaperMod 主题语言设置中文</title>
+      <link>http://localhost:1313/papermod-lang-zh/</link>
+      <pubDate>Fri, 03 Dec 2021 22:18:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/papermod-lang-zh/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何让 Hugo 的 PaperMod 主题的语言设置为中文。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决 Hyper-V 端口占用问题</title>
+      <link>http://localhost:1313/hyper-v-reserved-port/</link>
+      <pubDate>Sat, 13 Nov 2021 11:54:33 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hyper-v-reserved-port/</guid>
+      <description>&lt;p&gt;本文介绍了如何解决 Windows 系统开启 Hyper-V 之后端口被莫名占用的问题。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows 11 系统启用 WSL 2 并安装 Docker</title>
+      <link>http://localhost:1313/wsl2-docker-instruction/</link>
+      <pubDate>Tue, 09 Nov 2021 18:04:36 +0800</pubDate>
+      
+      <guid>http://localhost:1313/wsl2-docker-instruction/</guid>
+      <description>&lt;p&gt;本文主要介绍了在 Win11 系统上启用 WSL 2，完成基本配置并安装 Docker 的过程。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git 使用教程（下）</title>
+      <link>http://localhost:1313/git-instruction-2/</link>
+      <pubDate>Mon, 25 Oct 2021 21:31:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-instruction-2/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Git 的一些进阶操作，包括分离 HEAD，相对引用，cherry-pick，交互式 rebase 和 tag 等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git 使用教程（上）</title>
+      <link>http://localhost:1313/git-instruction-1/</link>
+      <pubDate>Fri, 22 Oct 2021 21:31:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/git-instruction-1/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Git 本地和远程的一些常用操作，包括 commit，branch，merge，rebase，fetch 和 push 等。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用软件设置代理及换源教程</title>
+      <link>http://localhost:1313/software-set-proxy-mirror/</link>
+      <pubDate>Mon, 13 Sep 2021 20:11:32 +0800</pubDate>
+      
+      <guid>http://localhost:1313/software-set-proxy-mirror/</guid>
+      <description>&lt;p&gt;本文主要介绍一些常用软件的设置网络代理或者更换软件镜像源的方式。本文包括以下软件的设置：shell, git, apt, conda, maven, gradle, npm, yarn 以及 docker。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo 博客插入图片的方法</title>
+      <link>http://localhost:1313/hugo-blog-picture/</link>
+      <pubDate>Sat, 04 Sep 2021 18:10:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hugo-blog-picture/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何在 Hugo 静态博客中优雅地插入图片。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>利用 Hugo 和 Github Pages 创建静态博客并实现自动部署</title>
+      <link>http://localhost:1313/hugo-github-pages-blog/</link>
+      <pubDate>Thu, 19 Aug 2021 15:04:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hugo-github-pages-blog/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何利用 Hugo 和 Github Pages 创建静态博客，并利用 Github Actions 实现博客的自动部署。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Virtual Puppet Project, often shortened to vpuppr, aims to be an accessible, open-source tool for VTubers!
+Found a problem with the program? Submit an issue on GitHub!
+Feel free to join the Discord community to share your thoughts or help collaborate!
+Contributors Check out the people who helped build this!
+vpuppr
+website
+Demo Here&amp;rsquo;s a quick demo from a slightly older alpha version by ItsRogueRen.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/links/</guid>
+      <description>Project Links In no particular order, here are some links to my various open source projects.
+camply browsr cookiecutter-python llm-term dotfiles hatch-pip-compile dotfiles lunchable lunchable-pushlunch lunchable-primelunch lunchable-splitlunch media-center textual-universal-directorytree zoo ridbPy recdotgov-client FastApp </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;!doctype html&gt; Justin Flannery - Resume </description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

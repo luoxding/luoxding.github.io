@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>互联网 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E4%BA%92%E8%81%94%E7%BD%91/</link>
+    <description>Recent content in 互联网 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Fri, 17 Nov 2023 21:20:34 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E4%BA%92%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clash for Windows OpenAI 分流</title>
+      <link>http://localhost:1313/clash-openai/</link>
+      <pubDate>Fri, 17 Nov 2023 21:20:34 +0800</pubDate>
+      
+      <guid>http://localhost:1313/clash-openai/</guid>
+      <description>&lt;p&gt;总所周知，OpenAI 对于访问 IP 的要求较为严格，因此我们最好使用较为固定的美国 IP 进行访问。如果我们所使用的分流规则中没有相应的规则的话，我们每次访问 ChatGPT 时都需要手动切换节点，非常的麻烦。那么有没有什么简单的方法来添加 Clash 的分流规则呢？当然有，那就是 Clash for Windows 的 Parsers 功能。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Chrome 扩展 Vimium C 介绍</title>
+      <link>http://localhost:1313/chrome-vimium-c/</link>
+      <pubDate>Sun, 24 Jul 2022 21:36:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/chrome-vimium-c/</guid>
+      <description>&lt;p&gt;本文介绍了 Chrome 中的一个类 Vim 按键扩展 Vimium C 的基本使用方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Clash for Windows 启用 TUN 模式</title>
+      <link>http://localhost:1313/cfw-tun-system/</link>
+      <pubDate>Wed, 23 Feb 2022 21:10:49 +0800</pubDate>
+      
+      <guid>http://localhost:1313/cfw-tun-system/</guid>
+      <description>&lt;p&gt;Clash for Windows（下简称 CFW）是一个常用的跨平台的代理软件。其 TUN 模式就类似于 VPN，通过创建一个虚拟网卡的方式来对流量实现更为彻底的代理。对于不遵循系统代理的软件，TUN 模式可以接管其流量并交由 CFW 处理。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在 Hugo 中使用短代码</title>
+      <link>http://localhost:1313/hugo-shortcodes/</link>
+      <pubDate>Fri, 18 Feb 2022 22:17:07 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hugo-shortcodes/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Hugo 中的短代码 Shortcodes。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PaperMod 主题语言设置中文</title>
+      <link>http://localhost:1313/papermod-lang-zh/</link>
+      <pubDate>Fri, 03 Dec 2021 22:18:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/papermod-lang-zh/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何让 Hugo 的 PaperMod 主题的语言设置为中文。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo 博客插入图片的方法</title>
+      <link>http://localhost:1313/hugo-blog-picture/</link>
+      <pubDate>Sat, 04 Sep 2021 18:10:47 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hugo-blog-picture/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何在 Hugo 静态博客中优雅地插入图片。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>利用 Hugo 和 Github Pages 创建静态博客并实现自动部署</title>
+      <link>http://localhost:1313/hugo-github-pages-blog/</link>
+      <pubDate>Thu, 19 Aug 2021 15:04:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/hugo-github-pages-blog/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何利用 Hugo 和 Github Pages 创建静态博客，并利用 Github Actions 实现博客的自动部署。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

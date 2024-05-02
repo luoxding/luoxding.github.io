@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Update on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/update/</link>
+    <description>Recent content in Update on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let&#39;s talk about camply</title>
+      <link>http://localhost:1313/manual/latex/2022-05-03-lets-talk-about-camply/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/latex/2022-05-03-lets-talk-about-camply/</guid>
+      <description>If you don&amp;rsquo;t already know, camply is an open-source Python project that I created a little while ago that helps people to find and snag last minute cancellations at campgrounds all around the USA.
+I got the idea for camply when my partner and I took a road trip last summer. When we started planning campgrounds to stay at inside of National Parks during our trip, we quickly discovered that campsites at busy destinations like Yellowstone and Glacier are a hot commodity and totally booked out.</description>
+    </item>
+    
+    <item>
+      <title>I guess I have a blog now</title>
+      <link>http://localhost:1313/manual/latex/2022-02-08-welcome/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/manual/latex/2022-02-08-welcome/</guid>
+      <description>When I was setting up my portfolio site I realized that it also has some pretty nifty blogging capabilities too. Well&amp;hellip; I guess I have a blog now.
+I&amp;rsquo;m not typically one to channel my energy through writing so I don&amp;rsquo;t expect to be extremely active on here but it&amp;rsquo;s nice to have a venue where I can record my thoughts from time to time.
+In the meantime I&amp;rsquo;ll begin to work on putting together some more content to showcase some of my open source work.</description>
+    </item>
+    
+  </channel>
+</rss>

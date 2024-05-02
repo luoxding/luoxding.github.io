@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>C&#43;&#43; on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 28 Mar 2023 23:05:59 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43; Clang Format 设置</title>
+      <link>http://localhost:1313/clang-format/</link>
+      <pubDate>Tue, 28 Mar 2023 23:05:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/clang-format/</guid>
+      <description>&lt;p&gt;本文介绍了如何使用 Clang Format 来格式化 C++ 代码。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

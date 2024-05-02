@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PostgreSQL on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 27 Nov 2022 12:16:37 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Data JPA 介绍</title>
+      <link>http://localhost:1313/spring-data-jpa-relationship/</link>
+      <pubDate>Sun, 27 Nov 2022 12:16:37 +0800</pubDate>
+      
+      <guid>http://localhost:1313/spring-data-jpa-relationship/</guid>
+      <description>&lt;p&gt;本文主要介绍了 Kotlin 如何使用 Spring Data JPA 来操作 PostgreSQL 数据库。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Arch Linux 安装 PostgreSQL 数据库</title>
+      <link>http://localhost:1313/archlinux-install-postgresql/</link>
+      <pubDate>Wed, 22 Jun 2022 15:47:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/archlinux-install-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL 是一个强大的、开源的对象关系型数据库系统，经过 30 多年的积极开发，它在可靠性、功能稳健性和性能方面赢得了良好的声誉。本文记录了如何在 Arch Linux 上安装并配置 PostgreSQL 数据库。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

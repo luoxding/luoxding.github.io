@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>前端 on Laoluo&#39;s Blog</title>
+    <link>http://localhost:1313/categories/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in 前端 on Laoluo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 16 May 2023 17:12:05 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ESLint 配置文件报错 Module 未定义</title>
+      <link>http://localhost:1313/eslint-module-not-define/</link>
+      <pubDate>Tue, 16 May 2023 17:12:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/eslint-module-not-define/</guid>
+      <description>&lt;p&gt;使用 vite 新建了一个 react 的项目，通过 vscode 打开，发现 &lt;code&gt;.eslintrc.cjs&lt;/code&gt; 文件报错：&amp;quot;&amp;lsquo;module&amp;rsquo; is not defined&amp;quot;。经过查阅资料，发现原来是 vscode 的问题。ESLint 本来应该忽略以 &lt;code&gt;.&lt;/code&gt; 开头的文件，但在 vscode 中没有生效。解决方案就是在 &lt;code&gt;.eslintrc.cjs&lt;/code&gt; 文件中添加 node 环境。就像这样：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决前端 Vite 和后端 Spring 跨域问题</title>
+      <link>http://localhost:1313/vite-spring-cross-origin/</link>
+      <pubDate>Wed, 25 May 2022 12:09:08 +0800</pubDate>
+      
+      <guid>http://localhost:1313/vite-spring-cross-origin/</guid>
+      <description>&lt;p&gt;本文主要介绍了如何解决前后端分离项目（前端：React + Vite，后端 Kotlin + Spring Security）的跨域问题。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
