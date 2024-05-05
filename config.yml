@@ -1,4 +1,5 @@
-baseURL: "https://buyilaoluo.top/"
+# baseURL: "https://luoxding.github.io/"
+baseURL: /
 title: Laoluo's Blog
 paginate: 10
 theme: PaperMod
@@ -105,8 +106,8 @@ params:
   assets:
     favicon: "/icons/linux.png"
   hideFooter: true
-  FilingNo: "黔ICP备2022001597号" # 底部备案号
-
+  FilingNo: "" # 底部备案号
+  # FilingNo: "黔ICP备2022001597号" # 底部备案号
 
 markup:
   goldmark:

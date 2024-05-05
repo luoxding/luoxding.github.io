@@ -10,6 +10,12 @@ hidemeta: true
 -   [camply](https://github.com/juftin/camply)
 
 
+我的笔记本web服务
+
+- [文件服务](http://127.0.0.1:8040/)
+- [博客服务](http://127.0.0.1:8008/)
+
+
 ## Project Links
 
 In no particular order, here are some links to my various open source projects.
