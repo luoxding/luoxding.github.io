@@ -53,9 +53,9 @@ menu:
     - name: 链接
       url: /links/
       weight: 70
-    - name: 速查
-      url: manual/
-      weight: 31
+    # - name: 速查
+    #   url: manual/
+    #   weight: 31
     # - name: 外链
     #   url: https://github.com/tobyscott25
     #   weight: 90
