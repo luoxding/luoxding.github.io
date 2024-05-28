@@ -5,7 +5,7 @@ title: Laoluo's Blog
 paginate: 10
 theme: PaperMod
 languageCode: zh
-# defaultContentLanguage: zh
+defaultContentLanguage: zh
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
