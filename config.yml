@@ -1,5 +1,6 @@
 # baseURL: "https://luoxding.github.io/"
-baseURL: /
+# baseURL: /
+baseURL: https://buyilaoluo.top/
 title: Laoluo's Blog
 paginate: 10
 theme: PaperMod
@@ -44,7 +45,7 @@ menu:
     - name: 关于
       url: about/
       weight: 9
-    - name: 🔍
+    - name: 搜索 # 🔍
       url: search/
       weight: 99
     # - name: 简历
@@ -93,9 +94,9 @@ params:
 
       - 🔭 这里记录我关于学习生活以及工作等笔记
 
-  socialIcons:
-    - name: github
-      url: "https://github.com/luoxding/"
+  # socialIcons:
+  #   - name: github
+  #     url: "https://github.com/luoxding/"
     # - name: leetcode
     #   url: "https://leetcode.cn/u/fzzf-z/"
     # - name: rss
