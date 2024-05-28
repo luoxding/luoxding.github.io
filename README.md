@@ -2,6 +2,8 @@
 
 Here is my [blog](https://luoxding.github.io/).
 
+path: `/mnt/data/luoxding.github.io/config.yml`
+
 Clone the repo
 
 ```bash

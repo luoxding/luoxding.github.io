@@ -29,3 +29,23 @@ rsync -zarv --include "*/" --include="*.gmi" --include="atom.xml" --exclude="*" 
 rsync -zarv --include "*/"  --exclude="*.gmi" --exclude="atom.xml" --prune-empty-dirs ./public/* ./www
 ```
 
+## 指定配置文件
+是的，你可以在运行 `hugo server` 时指定一个配置文件。Hugo 允许你通过 `--config` 参数来指定一个或多个配置文件。你可以这样使用：
+
+```bash
+hugo server --config your-config-file.toml
+```
+
+如果你有多个配置文件，可以用逗号分隔它们：
+
+```bash
+hugo server --config config.toml,another-config.toml
+```
+
+假设你有一个特定的配置文件，比如 `config-prod.toml`，你可以运行以下命令来启动 Hugo 服务器并使用该配置文件：
+
+```bash
+hugo server --config config-prod.toml
+```
+
+这样，Hugo 会根据你指定的配置文件启动服务器。

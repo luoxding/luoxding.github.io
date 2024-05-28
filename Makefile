@@ -22,16 +22,21 @@ push:
 # Sync local site to remote server
 .PHONY: sync
 sync:
-	USER=root
-	HOST=23.94.38.114
-	DIR=/var/opt/blog/
-	hugo && rsync -avz --delete public/ $${USER}@$${HOST}:$${DIR}
+# 	USER=root
+# 	HOST=23.94.38.114
+# 	DIR=/var/opt/blog/
+# # hugo && 
+# 	rsync -avz --delete public/ $${USER}@$${HOST}:$${DIR}
+	hugo
+	rsync -avz --delete ./public/ root@23.94.38.114:/var/opt/blog/
 
 # Sync local site to local directory
 .PHONY: local
 local:
-	DIR=/var/www/hugo/
-	sudo rsync -avz --delete ./public/ $${DIR}
+# DIR=/var/www/hugo/
+# sudo rsync -avz --delete ./public/ $${DIR}
+	hugo --config config-local.yml
+	sudo rsync -avz --delete ./public/ /var/www/hugo/ 
 
 # Parameterized deployment
 .PHONY: deploy
