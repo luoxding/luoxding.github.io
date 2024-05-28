@@ -6,4 +6,5 @@ Clone the repo
 
 ```bash
 git clone https://github.com/luoxding/luoxding.github.io.git --recurse-submodules
+git clone git@github.com:luoxding/luoxding.github.io.git --recurse-submodules
 ```
