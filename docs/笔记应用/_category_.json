@@ -1,0 +1,8 @@
+{
+  "label": "笔记应用",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "记录我的笔记"
+  }
+}
