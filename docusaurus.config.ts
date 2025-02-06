@@ -88,7 +88,10 @@ const config: Config = {
     [
       '@easyops-cn/docusaurus-search-local',
       {
-        hashed: 'filename',
+        hashed: 'true',
+        indexDocs: true, // 索引文档
+        indexPages: true, // 索引页面
+        highlightSearchTermsOnTargetPage: true, // 目标页面高亮搜索词
         language: ['en', 'zh'],
         blogDir: ['blog', 'docs'],
         blogRouteBasePath: ['/blog', '/docs'],

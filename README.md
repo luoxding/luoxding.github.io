@@ -43,16 +43,19 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ### 本地路径
 
 ```bash
-cd /home/ding/文档/Docusaurus/notes/
+cd /home/ding/文档/Docusaurus/luoxding.github.io/ 
+mpn run build
+npm run deploy
+make deploy
 ```
 
 ### 修改记录
 
 ```bash
-ding@fedora:~/文档/Docusaurus/notes$ npm run start -- --port 1780 --host 0.0.0.0
+ding@fedora:~/文档/Docusaurus/luoxding.github.io$ npm run start -- --port 1780 --host 0.0.0.0
 
 ```
-
+- 首页指向
 - 代码高亮
 - 搜索功能
 - 备案信息
