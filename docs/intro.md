@@ -1,18 +1,32 @@
 ---
 id: intro
-title: Welcome to My Docs
+title: 首页
 sidebar_position: 1
 slug: /
 ---
 
 
-# Tutorial Intro
+# 笔记简介
 
 ## 本项目托管地址：
 
-- [电脑本地](http://127.0.0.1:8000/)
-- [电脑局域网](http://192.168.10.3:8000/)
-- [公网站点](https://docs.luoxingding.com/)
+
+
+
+| 位置           | 地址                            |
+| ------------ | ----------------------------- |
+| 本地           | http://127.0.0.1:8000/        |
+| 本地局域网        | http://192.168.10.3:8000/     |
+| github pages | https://luoxding.github.io/   |
+| 域名访问         | https://docs.luoxingding.com/ |
+
+### 2025-02-06
+
+- [ ] 修改首页
+- [ ] 搜索功能
+- [ ] 代码高亮
+- [ ] 备案信息
+
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
